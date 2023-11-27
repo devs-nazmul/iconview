@@ -1,0 +1,41 @@
+.section{
+    background: var(--primary_ercu_white);
+    padding: 50px 0;
+}
+
+.sec_pad{
+    padding: 40px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    gap: 50px;
+}
+
+.logo{
+    background: var(--gradient_logo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2px 0;
+}
+
+.footer a:hover{
+    color: var(--primary_blue);
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.social button{
+    height: 35px;
+    width: 35px;
+}
+
+.social button:hover{
+    background: var(--primary_blue);
+}

@@ -1,0 +1,117 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.illus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary_blue);
+}
+
+.right_form{
+    background: var(--white);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.loginReg_data{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 120px 50px 50px ;
+    gap: 20px;
+}
+
+
+.switch_btn{
+    display: flex;
+}
+
+.switch_btn button{
+    border-radius: 0;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.social button{
+    padding: 8px 20px;
+}
+
+.switch_btn button:hover{
+    background: var(--primary_light);
+
+}
+
+.activeTab{
+    border-bottom: 1px solid var(--primary_blue);
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    gap: 15px;
+}
+
+.form input{
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 5px;
+    background: var(--white);
+    border: 1px solid var(--primary_border);
+    width: 100%;
+    /*color: var(--primary_gray);*/
+}
+
+.passBox{
+    width: inherit;
+    position: relative;
+}
+
+.show_hide{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    right: 15px;
+
+}
+
+
+.terms{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    font-size: 14px;
+}
+.terms input{
+    height: 25px;
+    width: 25px;
+}
+
+.link_forget{
+    font-size: 15px;
+}
+
+.link_forget span{
+    color: var(--primary_blue);
+}
+
+
+.terms label{
+    cursor: pointer;;
+}

@@ -1,0 +1,85 @@
+.heroSection{
+    background: var(--gradient_hero);
+    height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
+.heroPad{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+
+.heroGrid{
+    display: grid;
+    grid-template-columns: 7fr 4fr;
+    gap: 50px;
+}
+
+.hero_info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero_info h5{
+    max-width: 600px;
+    font-weight: 400;
+}
+
+.hero_search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 600px;
+}
+
+.hero_search input{
+    padding: 15px 15px 15px 40px;
+    background: var(--primary_less_white);
+    border: 2px solid var(--white);
+    box-shadow: var(--shadow)
+}
+
+.hero_search button{
+    height: 100%;
+    border: 2px solid var(--white);
+}
+
+.hero_reviews{
+    display: flex;
+    align-items: center;
+}
+
+.hero_reviews > * {
+    background: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--primary_border);
+}
+
+.hero_reviews > *:not(:nth-child(1)){
+    margin-left: -20px;
+}
+
+.hero_video{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.hero_video img{
+    border-radius: 10px;
+}
+
+.yt_video{
+    border-radius: 10px;
+    box-shadow: var(--shadow)
+}

@@ -1,0 +1,83 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 20px;
+    max-height: 70px;
+    background: var(--gradient_hero);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-bottom: 2px solid var(--primary_ercu_white);
+    z-index: 10;
+}
+
+
+
+.logo{
+    background: var(--gradient_logo);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 2px 0;
+}
+
+.logo_bg{
+    background: var(--white);
+    margin-left: -20px;
+    padding: 8px 27px;
+}
+
+.logo_search{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-grow: 1;
+}
+
+.searchBar{
+    width: 100%;
+    max-width: 650px;
+}
+
+.searchBar input{
+    background: var(--white);
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links_btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+.nav_btn{
+    display: flex;
+    align-content: center;
+    gap: 10px;
+    position: relative;
+}
+.pic_btn svg{
+
+}
+.showMenu{
+    position: absolute;
+    top: 65px;
+    right: 0;
+    z-index: 100;
+}
+
+
+.pro_pic{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

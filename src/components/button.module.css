@@ -1,0 +1,89 @@
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    background: var(--black);
+    color: var(--white);
+    column-gap: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    overflow: hidden;
+}
+
+.btn:disabled{
+    background: var(--primary_gray);
+    cursor: not-allowed;
+}
+
+.btn:disabled:hover{
+    background: var(--primary_gray);
+    cursor: not-allowed;
+    color: var(--white);
+}
+
+
+.btn_primary{
+    background: var(--primary_blue);
+    color: var(--white);
+}
+
+.btn_primary:hover{
+    background: var(--accent_two);
+    color: var(--black);
+}
+
+.btn_second{
+    background: var(--primary_ercu_white);
+    color: var(--black);
+}
+
+.btn_second:hover{
+    background: var(--accent_two);
+
+}
+
+
+
+.btn_link{
+    background: transparent;
+    color: var(--black);
+}
+
+.btn_link:hover{
+    color: var(--primary_blue);
+}
+
+
+.btn_outline{
+    background: var(--primary_less_white);
+    color: var(--black);
+    border: 2px solid var(--white);
+}
+
+.btn_mini{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+}
+
+.btn_outline:hover{
+    background: var(--accent_two);
+    border: 2px solid var(--primary_blue);
+}
+
+.btn_border{
+    border: 2px solid var(--white);
+}
+
+.btn_gradient_four{
+    background: var(--gradient_four);
+    border: 2px solid var(--white);
+}
+
+.btn_gradient_five{
+    background: var(--gradient_five);
+    border: 2px solid var(--white);
+}

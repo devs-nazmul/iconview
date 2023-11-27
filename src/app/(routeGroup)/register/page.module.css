@@ -1,0 +1,11 @@
+.reg_section{
+    background: var(--white);
+    height: calc(100vh - 70px);
+}
+
+.regPad{
+    /*max-width: 1600px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    height: 100%;
+}

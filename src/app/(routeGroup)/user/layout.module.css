@@ -1,0 +1,16 @@
+.userPad{
+}
+
+.userGrid{
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    height: calc(100vh - 70px);
+    justify-content: space-around;
+    width: 100%;
+}
+
+.user_body{
+    padding: 30px;
+    width: 100%;
+    max-width: 1200px;
+}

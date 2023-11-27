@@ -1,0 +1,27 @@
+.popup_cont{
+    background: var(--white);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    min-width: 230px;
+    overflow: hidden;
+    border: 1px solid var(--primary_ercu_white);
+    box-shadow: var(--shadow);
+    top: 80px;
+    position: absolute;
+    right: 20px;
+    z-index: 10;
+
+}
+
+.popup_cont button{
+    justify-content: flex-start;
+    border-radius: 0;
+    width: 100%;
+    color: var(--black);
+}
+
+.popup_cont button:hover{
+    background: var(--primary_light);
+}

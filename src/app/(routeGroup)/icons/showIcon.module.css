@@ -1,0 +1,21 @@
+.icon_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(60px,1fr));
+    grid-auto-rows: 60px;
+}
+
+.icon{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    /*transition: all 0.3s;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary_dark);
+}
+
+.icon:hover{
+    border: 2px solid var(--primary_blue);
+    background: var(--primary_less_white);
+}

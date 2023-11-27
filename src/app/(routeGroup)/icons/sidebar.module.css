@@ -1,0 +1,135 @@
+.sidebar{
+    background: var(--primary_ercu_white);
+    min-height: calc(100vh - 70px);
+    position: fixed;
+    left: 0;
+    width: 320px;
+    padding: 20px 0;
+    overflow-y: auto;
+    border-right: 2px solid var(--primary_border);
+
+}
+
+
+.filter{
+    display: flex;
+    flex-direction: column;
+}
+
+.headFlex{
+    background: var(--white);
+    height: 45px;
+    cursor: pointer;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    color: var(--black);
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 500;
+    font-size: 14px;
+
+}
+
+.headFlex svg{
+    font-size: 18px;
+}
+
+
+.filter_value{
+    font-size: inherit;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.filter_value span{
+    font-size: inherit;
+}
+
+.filter_input{
+    background: transparent;
+    outline: none;
+    padding: 5px 10px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+
+
+.filter_body{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    max-height: 300px;
+}
+
+.checkbox_btn{
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: var(--primary_dark);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.checkbox_btn:hover{
+    color: var(--primary_blue);
+}
+
+
+
+.checkbox_btn input[type=checkbox]{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.checkbox_btn input[type=checkbox]:checked{
+    background: red;
+    color: blue;
+}
+
+.checkbox_btn:hover{
+    background: var(--white);
+}
+
+.size_box{
+    padding: 30px 20px;
+}
+
+.color_box{
+    padding: 0;
+}
+
+
+
+.size_btn{
+    -webkit-appearance: none;
+    background:var(--gradient_four);
+    cursor: pointer;
+    border-radius: 10px;
+    height: 10px;
+    width: 100%;
+}
+
+.size_btn::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    background:var(--primary_blue);
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 4px solid var(--white);
+    box-shadow: var(--shadow);
+
+}
+

@@ -1,0 +1,67 @@
+.twoGrid{
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 20px;
+}
+
+.pay_btn{
+    width: 50%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.currentPlan{
+    padding-right: 50px;
+}
+
+.paymentForm{
+
+}
+
+.payment_cont{
+    width: 100%;
+    padding-top: 100px;
+}
+
+.planForm{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.planForm label{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    color: var(--black);
+    transition: all 0.3s;
+    padding: 10px 20px;
+}
+
+.planForm label:hover{
+    background: var(--primary_ercu_white);
+}
+
+.pricing{
+    background: var(--gradient_hero);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.table :where(td, th):not(:last-child){
+    padding: 10px 20px;
+}
+
+.table tr:not(:last-child){
+    border-bottom: 1px solid var(--primary_gray);
+}

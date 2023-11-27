@@ -1,0 +1,29 @@
+.container{
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: var(--primary_ercu_white);
+}
+
+.box svg{
+    color: var(--primary_blue);
+}
+
+.box{
+    background: var(--gradient_hero);
+    padding: 100px 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container h1 {
+    color: var(--primary_blue);
+}

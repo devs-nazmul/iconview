@@ -1,0 +1,20 @@
+.sidebar{
+    padding: 20px 0;
+    border-right: 2px solid var(--primary_border);
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar button{
+    justify-content: flex-start;
+    border-radius: 0;
+    width: 100%;
+    color: var(--black);
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+.sidebar button:hover{
+    background: var(--primary_light);
+}

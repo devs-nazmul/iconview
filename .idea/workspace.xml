@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="false" />
+    <option name="myAllFileTypesSelected" value="true" />
+    <option name="mySelectedFileTypes">
+      <set />
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/prisma/schema.prisma" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/login/page.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/register/page.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/checkoutForm.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/paymentForm.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/_comp/footer.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/api/login/route.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/api/payinit/route.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/api/webhook/route.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/globals.css" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/layout.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/page.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/components/loginReg.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/components/nav.js" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2Xl4XTHlK0EZd8wOV5RBUW3o0WD" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Projects/IconView/iconview.org/src/app/_comp&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Less&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/admin/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/_comp" />
+      <recent name="$PROJECT_DIR$/src/app/(routeGroup)/user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/app/(routeGroup)/user/subscriptions/[slug]" />
+      <recent name="$PROJECT_DIR$/src/app/(routeGroup)/user/subscriptions/page.js" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="" />
+      <created>1695583328279</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695583328279</updated>
+      <workItem from="1699190374881" duration="685000" />
+      <workItem from="1699191072626" duration="26963000" />
+      <workItem from="1699240760187" duration="10778000" />
+      <workItem from="1699253166719" duration="2776000" />
+      <workItem from="1699373476151" duration="3921000" />
+      <workItem from="1699446206159" duration="23929000" />
+      <workItem from="1699497854679" duration="4759000" />
+      <workItem from="1699503784521" duration="10419000" />
+      <workItem from="1699799111562" duration="5345000" />
+      <workItem from="1700065464134" duration="3227000" />
+      <workItem from="1700113187854" duration="680000" />
+      <workItem from="1700180995119" duration="18000" />
+      <workItem from="1700213730070" duration="2048000" />
+      <workItem from="1700225282204" duration="25850000" />
+      <workItem from="1700297088338" duration="5059000" />
+      <workItem from="1700365968001" duration="1672000" />
+      <workItem from="1700409655967" duration="14447000" />
+      <workItem from="1700557955268" duration="18186000" />
+      <workItem from="1700629306421" duration="14178000" />
+      <workItem from="1700753041015" duration="1512000" />
+      <workItem from="1701008964334" duration="10015000" />
+      <workItem from="1701097948909" duration="11206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

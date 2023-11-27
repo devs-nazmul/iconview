@@ -1,0 +1,116 @@
+@import "iconview/style.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: var(--font-poppins);
+
+    --primary_blue: #2F5AFF;
+    --primary_mid: #7C8EFF;
+    --primary_light: #C1C4FF;
+
+    --primary_less_white: #EFF6FF;
+    --primary_ercu_white: #EDF2F6;
+    --white: #ffffff;
+
+    --black: #222222;
+    --primary_dark: #4C535F;
+    --primary_gray: #8D98AA;
+
+    --primary_border: #DADCE0;
+
+    --accent_one: #B5FFEA;
+    --accent_two: #A3CDF4;
+    --accent_three: #BF7EFF;
+
+    --error: #FF3328;
+    --warning: #F98F04;
+    --success: #00AF6F;
+
+    --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+
+    --gradient_hero: linear-gradient(296deg, #00C2FF 11.73%, #7DECBD 43.35%, #C1C4FF 87.28%);
+    --gradient_logo: linear-gradient(296deg, #02b5ee 11.73%, #3ee399 43.35%, #4872fd 87.28%);
+    --gradient_one: linear-gradient(285deg, #B5FFEA 15.41%, #A3CDF4 61.01%, #8D92FF 98.09%);
+    --gradient_two: linear-gradient(285deg, #A9DCFF 13.12%, #FFF5D2 99.74%);
+    --gradient_three: linear-gradient(290deg, #FFDFE0 41.72%, #A3B7FF 108.47%);
+    --gradient_four: linear-gradient(283deg, #BF7EFF 13.51%, #2F5AFF 80.99%);
+    --gradient_five: linear-gradient(113deg, #2F5AFF 2.09%, #7C8EFF 100%);
+
+}
+
+
+body{
+    font-family: var(--font-poppins);
+}
+
+h1{
+    font-size: 55px;
+    font-weight: bold;
+    line-height: 120%;
+    font-family: var(--font-poppins);
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 120%;
+    font-family: var(--font-poppins);
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+}
+
+h4{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+}
+
+h6{
+    font-size: 14px;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+}
+
+p, span, a, i{
+    font-size: 16px;
+    line-height: 160%;
+    font-family: var(--font-poppins);
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.main_container{
+    margin-top: 70px;
+}
+
+.rcp{
+    border-radius: 0 !important;
+}
+
+.rcp, .rcp-body{
+    width: 100%;
+    border-radius: 0px;
+}
+
+.rcp-saturation{
+    border-radius: 0px !important; ;
+}
+
+.rcp-field-label{
+    display: none;
+}
