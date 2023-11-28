@@ -15,7 +15,7 @@ export default async function Page(){
     // Check if any User
     const session = await getServerSession(authOptions)
     
-    const { name, email } = session?.user;
+    const { email } = session?.user;
     
     const user = await prisma.user.findUnique({
         where: {email: email}, include: {subscriber: true}
