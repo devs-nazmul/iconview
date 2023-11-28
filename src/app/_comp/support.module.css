@@ -1,0 +1,57 @@
+.section{
+    background: var(--white);
+}
+
+.sec_pad{
+    padding: 80px 40px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+}
+
+.form{
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: var(--primary_ercu_white);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.input{
+    background: var(--white);
+    border: 2px solid var(--primary_border);
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s;
+    width: 100%;
+    outline: none;
+}
+
+.info{
+
+}
+
+.rightForm{
+
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.social button{
+    height: 35px;
+    width: 35px;
+}
+
+.social button:hover{
+    background: var(--primary_blue);
+}

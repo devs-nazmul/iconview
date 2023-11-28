@@ -1,16 +1,17 @@
-import Docs from "@/app/_comp/docs";
 import css from './page.module.css'
+import Support from "@/app/_comp/support";
 import Footer from "@/app/_comp/footer";
 
 export default function Page(){
 	return(
 		<div className={css.docs_page}>
 			
-			<div className={css.docs_head}>
-				<h1>Documents & Guidelines</h1>
+			<div className={css.head}>
+				<h1>Helpline Support</h1>
+				<h4>Meet the Team and get hands on supports. </h4>
 			</div>
 			
-			<Docs />
+			<Support />
 			<Footer />
 		</div>
 	)

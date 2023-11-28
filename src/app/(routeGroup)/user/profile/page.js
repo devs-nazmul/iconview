@@ -8,8 +8,7 @@ export default function Page(){
 	const [user, setUser] = useState("")
 	
 	useEffect(() => {
-		const session = getSession().then((data) => setUser(data.user))
-
+		const session = getSession().then((data) => setUser(data?.user))
 	}, [])
 	
 	return(

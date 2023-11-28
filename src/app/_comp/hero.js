@@ -4,6 +4,8 @@ import {Magnifying_Glass_Fas} from "iconview/svgs/Magnifying_Glass_Fas";
 import Button from "@/components/button";
 import Image from "next/image";
 import videoImage from '@/assets/video.png'
+import {Rocket_Far} from "iconview/svgs/Rocket_Far";
+import Link from "next/link";
 export default function Hero(){
 	
 	return(
@@ -11,11 +13,15 @@ export default function Hero(){
 			<div className={css.heroPad}>
 				<div className={css.heroGrid}>
 					<div className={css.hero_info}>
-						<h1>100k+ icons for React, Nextjs, Figma, React Native Icons For_Everyone</h1>
+						<h1 className="font-black">100k+ icons for React, Nextjs, Figma, React Native and For_Everyone</h1>
 						<h5>Get Access to 100k+ Svg High Quality Vector Icons for web, mobile and desktop, Unlimited Download and usage For Free.</h5>
 						<div className={css.hero_search}>
 							<Input place="Search your icons..." icon_start={<Magnifying_Glass_Fas />}  />
 							<Button type="primary" icon_start={<Magnifying_Glass_Fas />}>  </Button>
+						</div>
+						
+						<div className={css.browse_btn}>
+							<Link href={"/icons"} ><Button border type="primary" icon_start={<Rocket_Far />} > Browse Icons</Button></Link>
 						</div>
 						
 						<div className={css.hero_reviews}>

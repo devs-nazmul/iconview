@@ -41,13 +41,13 @@ export default function Footer(){
 						<p>Subscribe to stay tuned for new web design and latest updates. Let's do it! </p> <br/>
 						<Input icon_start={<Paper_Plane_Top_Fad />} place="Email Address"/>
 						<br/>
-						<dic className={css.social}>
+						<div className={css.social}>
 							<Button mini> <Facebook_Fab/> </Button>
 							<Button mini> <Twitter_Fab/> </Button>
 							<Button mini> <Linkedin_Fab/> </Button>
 							<Button mini> <Github_Fab/> </Button>
 							<Button mini> <Youtube_Fab/> </Button>
-						</dic>
+						</div>
 					</div>
 					
 				</div>

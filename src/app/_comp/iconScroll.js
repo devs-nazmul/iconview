@@ -75,6 +75,14 @@ export default function IconScroll(){
 						} )}
 					</div>
 					
+					<div className={css.iconGrid}>
+						{icons.slice(260, 350).map((icon, index) => {
+							return <li key={index} className={css.iconBox}>
+								<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
+							</li>
+						} )}
+					</div>
+					
 				</ul>
 			</div>
 		</section>

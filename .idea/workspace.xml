@@ -5,7 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/support/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/support/page.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_comp/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/_comp/support.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/dev.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/docs/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/docs/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/profile/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/profile/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/docs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/docs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/featured.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/featured.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/featured.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/featured.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/hero.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/iconScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/iconScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/iconScroll.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/iconScroll.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/platform.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/platform.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/pricing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/pricing.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/pricing.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +48,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/prisma/schema.prisma" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/login/page.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/register/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/checkoutForm.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.js" root0="SKIP_INSPECTION" />
@@ -54,27 +78,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Projects/IconView/iconview.org/src/app/_comp&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Less&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/admin/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/Projects/IconView/iconview.org/src/app/(routeGroup)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Less",
+    "ts.external.directory.path": "/Users/admin/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/(routeGroup)" />
       <recent name="$PROJECT_DIR$/src/app/_comp" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)/user" />
     </key>
@@ -113,7 +138,8 @@
       <workItem from="1700629306421" duration="14178000" />
       <workItem from="1700753041015" duration="1512000" />
       <workItem from="1701008964334" duration="10015000" />
-      <workItem from="1701097948909" duration="11206000" />
+      <workItem from="1701097948909" duration="11401000" />
+      <workItem from="1701174233509" duration="8495000" />
     </task>
     <servers />
   </component>

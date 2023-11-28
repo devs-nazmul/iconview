@@ -1,0 +1,14 @@
+.docs_page{
+    /*margin-top: 150px;*/
+}
+
+.head{
+    height: 250px;
+    width: 100%;
+    background: var(--gradient_one);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--black);
+}

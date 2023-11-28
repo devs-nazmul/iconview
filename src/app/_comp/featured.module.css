@@ -15,7 +15,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 50px;
     padding: 20px 0;
 }
 
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     /*background: var(--primary_ercu_white);*/
-    max-width: 150px;
+    max-width: 180px;
     padding: 10px 15px;
     border-radius: 5px;
     overflow: hidden;

@@ -7,12 +7,19 @@ import cls from "@/libs/cls";
 import Image from "next/image";
 import istanbul from '@/assets/istanbul.png'
 
-export default function Pricing(){
+export default function Pricing({hideTitle, plan}){
+	
+	const currentPlan = plan?.name?.toLowerCase()
+	
 	return(
 		<section className={css.section}>
 			<div className={css.sec_pad}>
-				<h2>Pricing Made Simple</h2>
-				<h5>Stay Focused and get the icon you need within your design app.</h5>
+				
+				{ !hideTitle && <div className="text-center mb-14">
+					<h2>Pricing Made Simple</h2>
+					<h5>Stay Focused and get the icon you need within your design app.</h5>
+				</div> }
+				
 				<ol className={css.listGrid}>
 					<li className={css.pricing_Box}>
 						<div className={css.head}>
@@ -33,7 +40,7 @@ export default function Pricing(){
 								<div> <Xmark_Fad className="text-red-600 mr-3" /> Apple icons </div>
 							</div>
 							<br/>
-							<Button className="w-full" type="primary"> Get Started </Button>
+							<Button disabled={currentPlan} className="w-full" type="primary"> {currentPlan === 'free'? "Your Current Plan" : "Get Started"} </Button>
 						</div>
 					</li>
 					<li className={css.pricing_Box}>
@@ -55,7 +62,7 @@ export default function Pricing(){
 								<div> <Xmark_Fad className="text-red-600 mr-3" /> Apple icons </div>
 							</div>
 							<br/>
-							<Button className="w-full"> Get Started </Button>
+							<Button disabled={currentPlan}  className="w-full"> {currentPlan === 'basic'? "Your Current Plan" : "Get Started"} </Button>
 						</div>
 					</li>
 					<li className={css.pricing_Box}>
@@ -77,7 +84,7 @@ export default function Pricing(){
 								<div> <Xmark_Fad className="text-red-600 mr-3" /> Apple icons </div>
 							</div>
 							<br/>
-							<Button className="w-full"> Get Started </Button>
+							<Button disabled={currentPlan}  className="w-full"> {currentPlan === 'enterprise'? "Your Current Plan" : "Get Started"} </Button>
 						</div>
 					</li>
 				</ol>

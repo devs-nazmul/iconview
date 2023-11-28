@@ -49,6 +49,10 @@
     border: 2px solid var(--white);
 }
 
+.browse_btn button{
+    padding: 15px 35px;
+}
+
 .hero_reviews{
     display: flex;
     align-items: center;

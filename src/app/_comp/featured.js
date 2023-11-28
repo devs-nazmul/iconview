@@ -7,7 +7,7 @@ export default function Featured(){
 	return(
 		<section className={css.feature_section}>
 			<div className={css.feature_pad}>
-				<h5>Over 100k+ icons from various vendors</h5>
+				<h4>Over 100k+ icons from various vendors</h4>
 				<ul className={css.feature_list}>
 					<li> <Image src={fontAwesome} alt={"FontAwesome"} /> </li>
 					<li> <Image src={fontAwesome} alt={"FontAwesome"} /> </li>
