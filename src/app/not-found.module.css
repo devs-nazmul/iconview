@@ -1,0 +1,33 @@
+.section{
+    background: var(--primary_ercu_white);
+    height: calc(100vh - 70px);
+
+}
+
+.sec_pad{
+    height: 90%;
+    padding: 80px 40px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    gap: 50px;
+}
+
+.svg{
+    justify-self: center;
+}
+
+.svg img{
+    max-width: 600px;
+}
+
+.info h1{
+    color: var(--error);
+}

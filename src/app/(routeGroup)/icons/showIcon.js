@@ -2,6 +2,7 @@
 
 import css from './showIcon.module.css'
 import {useState} from "react";
+import Link from "next/link";
 
 export default function ShowIcon({icons}){
 	
@@ -11,9 +12,13 @@ export default function ShowIcon({icons}){
 		<ul className={css.icon_list}>
 			{icons.map((icon, index) => {
 				
-				return <li key={index} className={css.icon}>
+				// return <li key={index} className={css.icon} >
+				// 	<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
+				// </li>
+				
+				return <Link key={index} className={css.icon}  href={"/icons/a"}>
 					<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
-				</li>
+				</Link>
 			} )}
 		</ul>
 	)
