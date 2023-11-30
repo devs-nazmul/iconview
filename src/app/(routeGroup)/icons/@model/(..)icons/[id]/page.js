@@ -1,26 +1,25 @@
-"use client"
 
 import Model from "@/components/model";
 import css from './page.module.css'
-import Button from "@/components/button";
-import {Xmark_Far} from "iconview/svgs/Xmark_Far";
-import ShowIconDetail from "@/components/showIconDetail";
-import {useRouter} from "next/navigation";
-import {useRef} from "react";
 
-export default function Page(){
+// Temporary Import icon
+import icons from '@/assets/initialData'
+
+
+import ShowIconDetail from "@/components/showIconDetail";
+
+export default function Page({params}){
 	
-	const router = useRouter()
+	console.log(params)
+	console.log("From Intercept")
 	
+	
+	// Temporary Passing Icon
+	const [ icon ] = icons.filter((icon) => icon.usage === params.id )
 	
 	return(
 		<Model >
-			<div  className={css.close}>
-				<Button onClick={(e) => { e.stopPropagation(); router.back()}} type="second" mini border> <Xmark_Far/></Button>
-			</div>
-			
-			<ShowIconDetail />
-			
+			<ShowIconDetail icon={icon} />
 		</Model>
 	)
 }

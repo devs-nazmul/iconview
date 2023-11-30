@@ -16,7 +16,8 @@ export default function ShowIcon({icons}){
 				// 	<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
 				// </li>
 				
-				return <Link key={index} className={css.icon}  href={"/icons/a"}>
+				// Change Usages to icon Link
+				return <Link key={index} className={css.icon}  href={`/icons/${icon.usage}`}>
 					<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
 				</Link>
 			} )}

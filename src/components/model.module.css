@@ -16,3 +16,12 @@
 
     backdrop-filter: blur(1px);
 }
+
+.close{
+    display: flex;
+    width: 80%;
+    max-width: 1100px;
+    justify-content: flex-end;
+    transform: translate(-10px, 20%);
+    z-index: 2;
+}

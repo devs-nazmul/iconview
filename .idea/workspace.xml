@@ -5,24 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/default.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/not-found.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/404.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/model.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/model.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/showIconDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/showIconDetail.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/model.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/showIconDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/showIconDetail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +128,8 @@
       <workItem from="1701097948909" duration="11401000" />
       <workItem from="1701174233509" duration="10066000" />
       <workItem from="1701261004304" duration="17195000" />
+      <workItem from="1701321036062" duration="291000" />
+      <workItem from="1701332100654" duration="2806000" />
     </task>
     <servers />
   </component>

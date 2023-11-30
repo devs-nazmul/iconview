@@ -1,0 +1,45 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 50px 40px;
+    max-width: 1100px;
+    width: 80%;
+    background: var(--white);
+    border-radius: 10px;
+    position: relative;
+    transform: translateY(-50px);
+    gap: 20px;
+}
+
+
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.codes{
+    background: var(--primary_ercu_white);
+    overflow: hidden;
+    border-radius: 5px;
+    height: 100px;
+}
+
+.downloads{
+    display: flex;
+    gap: 20px;
+}
+
+.downloads button{
+    width: 100%;
+}
+
+.iconPrev{
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
