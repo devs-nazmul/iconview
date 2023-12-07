@@ -2,7 +2,7 @@ import fs from "node:fs"
 import icons from './original/icon-families.json' assert { "type": "json" }
 
 let iconJson = []
-const output_dir = "fa.json"
+const output_dir = "fa.js"
 const vendorCode = "Fa"
 
 let count = 0
@@ -36,7 +36,7 @@ function ObjToArr(classic, duotone, name, isFree ){
 			iconData = {
 				type: "colored",
 				isFree: isFree === type? true : false,
-				usage: Usage(name) + vendorCode + type[0].toUpperCase(),
+				usage: Usage(name) + "_" + vendorCode + "D",
 				viewBox: viewBox? typeof viewBox === "string"? viewBox : viewBox.join(" ") : "0 0 512 512",
 				path: typeof path === 'string'? [path] : path,
 				svg: raw
@@ -79,16 +79,16 @@ Object.entries(icons).forEach( ([name, icon]) => {
 	const isFree = free.map((type) => type.style )?.join("")
 	
 	const { classic, duotone } = svgs
-
+	
 	const styles = ObjToArr(classic, duotone, modNames, isFree) || []
 	
 	iconData = {
 		name: modNames, label, tags, vendor, styles
 	}
 	
-
+	
 	iconJson.push(iconData)
-
+	
 	console.log("Icon Saved", modName);
 	console.log("---");
 	

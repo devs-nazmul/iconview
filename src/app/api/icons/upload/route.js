@@ -1,13 +1,20 @@
-import { icons } from "@/assets/iconsData/fa.js"
+import { icons } from "@/assets/iconsData/fa"
 
 import prisma from "@/libs/prisma";
 
-export const  GET = async (request) => {
+export const GET = async ( request ) => {
 	
-	try {
+	// Get Icon Data From Request, Instead of Loacl Icons
+	// const body = await request.json()
+	// Verify Icons Upload
+	
+	return Response.json({ message : "Not Allowed" })
+
+	// You'll not able to reach here
+	
+	const iconData = icons.map(async(icon) => {
 		
-		const iconData = icons.map( async (icon) => {
-			
+		try {
 			const createIconID = await prisma.icon.create({
 				data: {
 					name: icon.name,
@@ -15,8 +22,7 @@ export const  GET = async (request) => {
 					vendor: icon.vendor,
 				}
 			})
-			
-			const createTags = icon.tags.map( async (tag) => {
+			const createTags = icon.tags.map(async(tag) => {
 				
 				const saveTags = await prisma.tag.create({
 					data: {
@@ -26,7 +32,7 @@ export const  GET = async (request) => {
 				})
 			})
 			
-			const createStyle = icon.styles.map( async (style) => {
+			const createStyle = icon.styles.map(async(style) => {
 				
 				const saveStyle = await prisma.style.create({
 					data: {
@@ -47,24 +53,19 @@ export const  GET = async (request) => {
 						}
 					})
 				})
-				
-				
 			})
 			
-			return createIconID
-			
-		})
+		} catch (error){
+			console.error(error)
+			console.log(icon.name);
+			console.log("___");
+		}
 		
-		
-		
-		return Response.json({
-			message: "Icons saved successfully!",
-			data: iconData,
-		});
-	} catch (error) {
-		console.error(error);
-		return Response.json({ message: "Error saving icons." });
-	}
+	})
 	
-
+	return Response.json({
+		message: "Icons saved successfully!",
+		data: iconData,
+	})
+	
 }

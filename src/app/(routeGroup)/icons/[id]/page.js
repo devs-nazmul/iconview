@@ -19,7 +19,7 @@ export default function Page({params}){
 	console.log("From Page ID")
 	
 	// Temporary Passing Icon
-	const [ icon ] = icons.filter((icon) => icon.usage === params.id )
+	const [ icon ] = icons?.filter((icon) => icon.usage === params.id )
 	
 	return(
 		<div className="flex items-center justify-center mt-20">

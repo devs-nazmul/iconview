@@ -5,15 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/showIconDetail.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/icons/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/icons/upload/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconSchema.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconsData/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconsData/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/.idea/faFormat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/app.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/original/icon-families.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/original/iconSchema.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/dev.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/migrations/20231123170035_init/migration.sql" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/migrations/20231206153127_init/migration.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/model.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/showIconDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/showIconDetail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +42,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/old_package.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/prisma/schema.prisma" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/login/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.js" root0="SKIP_INSPECTION" />
@@ -40,6 +52,8 @@
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/paymentForm.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/_comp/footer.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/api/icons/route.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/api/icons/upload/route.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/api/login/route.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/api/payinit/route.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/api/webhook/route.js" root0="SKIP_INSPECTION" />
@@ -48,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/src/app/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/loginReg.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/components/nav.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/libs/faFormat/app.mjs" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -63,37 +78,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Projects/IconView/iconview.org/src/app/(routeGroup)&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Less&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/admin/Applications/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/media/belivup/Project/IconView/iconview.org",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/Users/admin/Applications/WebStorm 2023.3 RC.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/iconsData" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)" />
       <recent name="$PROJECT_DIR$/src/app/_comp" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)/user" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/iconsData" />
+      <recent name="$PROJECT_DIR$/src/app/api/icons/upload" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)/icons" />
-      <recent name="$PROJECT_DIR$/src/app" />
-      <recent name="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/hey" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -129,12 +145,42 @@
       <workItem from="1701174233509" duration="10066000" />
       <workItem from="1701261004304" duration="17195000" />
       <workItem from="1701321036062" duration="291000" />
-      <workItem from="1701332100654" duration="2806000" />
+      <workItem from="1701332100654" duration="3070000" />
+      <workItem from="1701354921574" duration="713000" />
+      <workItem from="1701617932034" duration="4604000" />
+      <workItem from="1701623828771" duration="67000" />
+      <workItem from="1701624015744" duration="144000" />
+      <workItem from="1701624184560" duration="386000" />
+      <workItem from="1701624829484" duration="352000" />
+      <workItem from="1701625653352" duration="2198000" />
+      <workItem from="1701686597627" duration="32000" />
+      <workItem from="1701777578157" duration="16000" />
+      <workItem from="1701786370878" duration="12000" />
+      <workItem from="1701786625617" duration="6273000" />
+      <workItem from="1701799274081" duration="13268000" />
+      <workItem from="1701859498512" duration="1770000" />
+      <workItem from="1701863723523" duration="9729000" />
+      <workItem from="1701944449175" duration="178000" />
+      <workItem from="1701944758431" duration="1437000" />
+      <workItem from="1701947053204" duration="1130000" />
+      <workItem from="1701950956060" duration="479000" />
+      <workItem from="1701953410769" duration="443000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

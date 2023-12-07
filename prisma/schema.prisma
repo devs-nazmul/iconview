@@ -6,10 +6,13 @@ generator client {
 }
 
 datasource db {
+
   provider = "sqlite"
   url      = "file:./dev.db"
-  // url = env("POSTGRES_PRISMA_URL")
-  // directUrl = env("POSTGRES_URL_NON_POOLING")
+
+  // provider = "postgresql"
+  // url = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  // directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
 model Account {
@@ -69,5 +72,46 @@ model Subscriber {
   price         Float
   created       DateTime @default(now())
   expired       DateTime
+}
+
+
+model Icon {
+  id       String   @id @default(cuid()) @unique
+  name     String
+  label    String
+  tags     Tag[]
+  vendor   String
+  styles   Style[]
+
+}
+
+
+model Style {
+  id      String   @id @default(cuid()) @unique
+  type    String
+  isFree  Boolean
+  usage   String
+  viewBox String
+  path    Path[]
+  svg     String
+  Icon    Icon    @relation(fields: [iconId], references: [id],  onDelete: Cascade)
+  iconId  String
+}
+
+
+
+model Tag {
+  id     String @id @unique @default(cuid())
+  tag    String?
+  icon   Icon   @relation(fields: [iconId], references: [id], onDelete: Cascade)
+  iconId String
+}
+
+
+model Path {
+  id       String  @id @default(cuid())
+  d        String?
+  style    Style  @relation(fields: [styleId], references: [id],  onDelete: Cascade)
+  styleId  String
 }
 
