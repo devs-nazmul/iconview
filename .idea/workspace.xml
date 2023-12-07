@@ -5,26 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/api/icons/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/icons/upload/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/iconSchema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/iconsData/demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/iconsData/fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/.idea/faFormat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/app.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/original/icon-families.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/original/iconSchema.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/faFormat/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/dev.db" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/dev.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/migrations/20231123170035_init/migration.sql" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/migrations/20231206153127_init/migration.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +146,7 @@
       <workItem from="1701944758431" duration="1437000" />
       <workItem from="1701947053204" duration="1130000" />
       <workItem from="1701950956060" duration="479000" />
-      <workItem from="1701953410769" duration="443000" />
+      <workItem from="1701953410769" duration="806000" />
     </task>
     <servers />
   </component>
