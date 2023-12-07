@@ -320,6 +320,11 @@ cookie@^0.5.0:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.5.0.tgz#d1f5d71adec6558c58f389987c366aa47e994f8b"
   integrity sha512-YZ3GUyn/o8gfKJlnlX7g7xq4gyO6OSuhGPKaaGssGB2qgDUS0gPgtTvoyZLTt9Ab6dC4hfc9dV5arkvc/OCmrw==
 
+css-root-modify@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/css-root-modify/-/css-root-modify-1.0.3.tgz#995b211c4ba9cdaa6fa6ba98d33eb9b94000b286"
+  integrity sha512-kPYkbtj+CqPG+2+/+aU7TKJ7zQr8sqVxwYl2BkMypMmZ2/EcJ1393FoR2zQCF15repm+ENfEx0mdJ8E2rqwY/Q==
+
 cssesc@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"

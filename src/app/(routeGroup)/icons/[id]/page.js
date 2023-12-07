@@ -1,29 +1,38 @@
 
 import { redirect } from 'next/navigation'
 
-import { useSearchParams } from 'next/navigation'
 import css from './page.module.css'
-
-// Temporary Import icon
-import icons from '@/assets/initialData'
 
 import ShowIconDetail from "@/components/showIconDetail";
 
-export default function Page({params}){
+import prisma from "@/libs/prisma";
+
+export default async function Page({params, searchParams}){
 	
-	// const queryParams = useSearchParams()
-	// const payment_intent = queryParams.get('payment_intent')
+	// console.log(params);
 	
-	// if (!payment_intent) {redirect('/user/billing')}
-	console.log(params)
-	console.log("From Page ID")
+	const { page, vendor } = searchParams
 	
-	// Temporary Passing Icon
-	const [ icon ] = icons?.filter((icon) => icon.usage === params.id )
+	// Search By Name, Vendor, Pages
+	
+	const icon = await prisma.icon.findFirst({
+		where: {
+			AND: [
+				{ name: params.id },
+				{ vendor: vendor }
+			]
+		},
+		include: {
+			tags: true,
+			styles: true
+		}
+	})
+	
+	// console.log(icon);
 	
 	return(
 		<div className="flex items-center justify-center mt-20">
-			<ShowIconDetail icon={icon} />
+			<ShowIconDetail type={searchParams?.type} icon={icon} />
 		</div>
 	)
 }

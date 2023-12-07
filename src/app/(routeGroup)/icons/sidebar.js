@@ -10,6 +10,7 @@ import "react-color-palette/css";
 import {Sliders_Far} from "iconview/svgs/Sliders_Far";
 import {Text_Size_Far} from "iconview/svgs/Text_Size_Far";
 import {List_Tree_Far} from "iconview/svgs/List_Tree_Far";
+import {useFilter} from "@/state/useFilter";
 
 
 export default function Sidebar(){
@@ -17,6 +18,15 @@ export default function Sidebar(){
 	const [color, setColor] = useColor("#4C535F")
 	const [size, setSize] = useState(20)
 	
+	const { filter, setFilter } = useFilter()
+	
+	useEffect(() => {
+		setFilter({ color: color.hex })
+	}, [color]);
+	
+	useEffect(() => {
+	
+	}, [filter]);
 	
 	return(
 		<div className={css.sidebar}>

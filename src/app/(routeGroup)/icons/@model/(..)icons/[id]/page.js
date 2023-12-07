@@ -1,25 +1,32 @@
 
 import Model from "@/components/model";
 import css from './page.module.css'
-
-// Temporary Import icon
-import icons from '@/assets/initialData'
-
-
+import prisma from "@/libs/prisma";
 import ShowIconDetail from "@/components/showIconDetail";
 
-export default function Page({params}){
+
+export default async function Page({params, searchParams}){
 	
-	console.log(params)
-	console.log("From Intercept")
+	const { vendor } = searchParams
+	
+	const icon = await prisma.icon.findFirst({
+		where: {
+			AND: [
+				{ name: params.id },
+				{ vendor: vendor }
+			]
+		},
+		include: {
+			tags: true,
+			styles: true
+		}
+	})
 	
 	
-	// Temporary Passing Icon
-	const [ icon ] = icons.filter((icon) => icon.usage === params.id )
 	
 	return(
 		<Model >
-			<ShowIconDetail icon={icon} />
+			<ShowIconDetail type={searchParams?.type} icon={icon}  />
 		</Model>
 	)
 }

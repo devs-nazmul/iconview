@@ -8,11 +8,17 @@
     border: 2px solid transparent;
     border-radius: 5px;
     cursor: pointer;
-    /*transition: all 0.3s;*/
+    transition: all 0.3s;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary_dark);
+    color: var(--primary_icon);
+    fill: var(--primary_icon);
+}
+
+.icon svg{
+    width: 35%;
+    height: 35%;
 }
 
 .icon:hover{
