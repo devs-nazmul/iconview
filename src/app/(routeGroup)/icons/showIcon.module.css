@@ -17,8 +17,7 @@
 }
 
 .icon svg{
-    width: 35%;
-    height: 35%;
+    height: var(--primary_size);
 }
 
 .icon:hover{

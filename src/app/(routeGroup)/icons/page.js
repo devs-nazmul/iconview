@@ -9,6 +9,9 @@ export default async function Page(){
 	// This is Server Components, so Fetch from Server
 	const iconFetch = await prisma.icon.findMany({
 		take: 200,
+		orderBy: [
+			{ name: "asc" }
+		],
 		where: {
 			styles: { some: { type: { equals: "brands" } } }
 		},
