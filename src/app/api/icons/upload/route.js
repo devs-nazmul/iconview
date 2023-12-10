@@ -10,62 +10,54 @@ export const GET = async ( request ) => {
 	
 	return Response.json({ message : "Not Allowed" })
 
+	
 	// You'll not able to reach here
+	// Creating Bulk
+	
+	let createManyIcon = []
+	let createManyStyle = []
+	let id = 0
 	
 	const iconData = icons.map(async(icon) => {
 		
-		try {
-			const createIconID = await prisma.icon.create({
-				data: {
-					name: icon.name,
-					label: icon.label,
-					vendor: icon.vendor,
-				}
-			})
-			const createTags = icon.tags.map(async(tag) => {
-				
-				const saveTags = await prisma.tag.create({
-					data: {
-						tag: tag,
-						iconId: createIconID.id
-					}
-				})
-			})
-			
-			const createStyle = icon.styles.map(async(style) => {
-				
-				const saveStyle = await prisma.style.create({
-					data: {
-						iconId: createIconID.id,
-						type: style.type,
-						isFree: style.isFree,
-						usage: style.usage,
-						viewBox: style.viewBox,
-						svg: style.svg
-					}
-				})
-				
-				const UpdatePath = style.path.map( async (d) => {
-					const savePath = await prisma.path.create({
-						data: {
-							d: d,
-							styleId: saveStyle.id
-						}
-					})
-				})
-			})
-			
-		} catch (error){
-			console.error(error)
-			console.log(icon.name);
-			console.log("___");
+		const newObj = {
+			id: id.toString(),
+			name: icon.name,
+			label: icon.label,
+			vendor: "fontawesome", // write icon.vendor
+			tags: icon.tags
 		}
+		createManyIcon.push(newObj)
 		
+		const createStyle = icon.styles.map(async (style) => {
+			const newObj = {
+				iconId: id.toString(),
+				type: style.type,
+				isFree: style.isFree,
+				usage: style.usage,
+				viewBox: style.viewBox,
+				svg: style.svg,
+				path: style.path
+			}
+			createManyStyle.push(newObj)
+		})
+		
+		id = id + 1
+		
+	})
+	
+	const saveIcon = await prisma.icon.createMany({
+		data: createManyStyle
+	})
+	
+	const updateStyle = await prisma.style.createMany({
+		data: createManyStyle
 	})
 	
 	return Response.json({
 		message: "Icons saved successfully!",
-		data: iconData,
+		icon: createManyStyle,
+		style: createManyStyle,
 	})
 	
 }

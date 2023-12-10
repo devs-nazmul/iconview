@@ -23,7 +23,6 @@ export default async function Page({params, searchParams}){
 			]
 		},
 		include: {
-			tags: true,
 			styles: true
 		}
 	})

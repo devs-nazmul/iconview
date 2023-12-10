@@ -5,14 +5,16 @@ generator client {
   provider = "prisma-client-js"
 }
 
+// prisma/schema.prisma
+
 datasource db {
 
-  provider = "sqlite"
-  url      = "file:./dev.db"
+  // provider = "sqlite"
+  // url      = "file:./dev.db"
 
-  // provider = "postgresql"
-  // url = env("POSTGRES_PRISMA_URL") // uses connection pooling
-  // directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
+  provider  = "postgresql"
+  url  	    = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
 model Account {
@@ -79,10 +81,9 @@ model Icon {
   id       String   @id @default(cuid()) @unique
   name     String
   label    String
-  tags     Tag[]
+  tags     String[]
   vendor   String
   styles   Style[]
-
 }
 
 
@@ -92,26 +93,33 @@ model Style {
   isFree  Boolean
   usage   String
   viewBox String
-  path    Path[]
+  path    String[]
   svg     String
   Icon    Icon    @relation(fields: [iconId], references: [id],  onDelete: Cascade)
   iconId  String
 }
 
+// model Usage {
+//   id          String  @id @default(cuid())
+//   name        String?
+//   style       Style  @relation(fields: [styleId], references: [id],  onDelete: Cascade)
+//   styleId     String
+// }
 
 
-model Tag {
-  id     String @id @unique @default(cuid())
-  tag    String?
-  icon   Icon   @relation(fields: [iconId], references: [id], onDelete: Cascade)
-  iconId String
-}
+// model Tag {
+//   id     String @id @unique @default(cuid())
+//   tag    String?
+//   icon   Icon   @relation(fields: [iconId], references: [id], onDelete: Cascade)
+//   iconId String
+// }
 
 
-model Path {
-  id       String  @id @default(cuid())
-  d        String?
-  style    Style  @relation(fields: [styleId], references: [id],  onDelete: Cascade)
-  styleId  String
-}
 
+// model Path {
+//   id       String  @id @default(cuid())
+//   d        String?
+//   style    Style  @relation(fields: [styleId], references: [id],  onDelete: Cascade)
+//   styleId  String
+// }
+//

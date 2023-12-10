@@ -69,7 +69,7 @@ export default function ShowIconDetail({icon, type}){
 				
 				<div className="w-full">
 					<h5 className="font-bold mb-3">Tags</h5>
-					<div className={css.tag_cont}>{ icon.tags.map((tags) => tags.tag ).map((tag) => <span className={css.tag} key={tag}> {tag} </span>)}</div>
+					<div className={css.tag_cont}>{ icon.tags.map((tag) => <span className={css.tag} key={tag}> {tag} </span>)}</div>
 				</div>
 
 				<div className={css.codes}>
