@@ -24,7 +24,7 @@ export default function ShowIcon({initIcons}){
 				const req = await fetch(`/api/icons?q=${filter.search}&type=${filterType}&vendor=${filterVendor}&p=${filter.page}`)
 				
 				if (!req.ok){
-					throw new Error("Request failed with status: " + req.status);
+					new Error("Request failed with status: " + req.status);
 				}
 				
 				const icons = await req.json()

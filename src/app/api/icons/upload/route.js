@@ -20,17 +20,17 @@ export const GET = async ( request ) => {
 	
 	const iconData = icons.map(async(icon) => {
 		
-		const newObj = {
+		const newIconObj = {
 			id: id.toString(),
 			name: icon.name,
 			label: icon.label,
 			vendor: "fontawesome", // write icon.vendor
 			tags: icon.tags
 		}
-		createManyIcon.push(newObj)
+		createManyIcon.push(newIconObj)
 		
 		const createStyle = icon.styles.map(async (style) => {
-			const newObj = {
+			const newStyleObj = {
 				iconId: id.toString(),
 				type: style.type,
 				isFree: style.isFree,
@@ -39,7 +39,7 @@ export const GET = async ( request ) => {
 				svg: style.svg,
 				path: style.path
 			}
-			createManyStyle.push(newObj)
+			createManyStyle.push(newStyleObj)
 		})
 		
 		id = id + 1
@@ -47,7 +47,7 @@ export const GET = async ( request ) => {
 	})
 	
 	const saveIcon = await prisma.icon.createMany({
-		data: createManyStyle
+		data: createManyIcon
 	})
 	
 	const updateStyle = await prisma.style.createMany({
@@ -56,7 +56,7 @@ export const GET = async ( request ) => {
 	
 	return Response.json({
 		message: "Icons saved successfully!",
-		icon: createManyStyle,
+		icon: createManyIcon,
 		style: createManyStyle,
 	})
 	
