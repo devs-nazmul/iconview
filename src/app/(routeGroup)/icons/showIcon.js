@@ -5,7 +5,7 @@ import {Suspense, useEffect, useState} from "react";
 import Link from "next/link";
 import {useFilter} from "@/state/useFilter";
 import { cssRootModify } from 'css-root-modify'
-import Loading from "@/app/(routeGroup)/icons/loading";
+import LoadingX from "@/app/(routeGroup)/icons/loadingX";
 
 
 export default function ShowIcon({initIcons}){
@@ -24,7 +24,6 @@ export default function ShowIcon({initIcons}){
 		const fetchData = async () => {
 			
 			setLoading(true)
-			console.log("I'm Getting Called");
 			
 			try {
 				const req = await fetch(`/api/icons?q=${filter.search}&type=${filterType}&vendor=${filterVendor}&p=${filter.page}`)
@@ -44,23 +43,22 @@ export default function ShowIcon({initIcons}){
 		}
 		
 		
-		// const delayedFetch = () => {
-		// 	clearTimeout(timeoutId); // Clear any existing timeout
-		//
-		// 	timeoutId = setTimeout(() => {
-		// 		fetchData(); // Execute the actual fetch after the delay
-		// 	}, 1000);
-		// };
-		//
-		// if (filter.search.length >= 2) {
-		// 	delayedFetch(); // Trigger the delayed fetch when search text is at least 3 characters
-		// }
-		//
-		// return () => {
-		// 	clearTimeout(timeoutId); // Clear the timeout when the component unmounts or when filter changes
-		// };
-		//
-		fetchData()
+		const delayedFetch = () => {
+			clearTimeout(timeoutId); // Clear any existing timeout
+
+			timeoutId = setTimeout(() => {
+				fetchData(); // Execute the actual fetch after the delay
+			}, 1000);
+		};
+
+		if (filter.search.length >= 2) {
+			delayedFetch(); // Trigger the delayed fetch when search text is at least 3 characters
+		}
+
+		return () => {
+			clearTimeout(timeoutId); // Clear the timeout when the component unmounts or when filter changes
+		};
+
 		
 	}, [filter])
 	
@@ -97,8 +95,8 @@ export default function ShowIcon({initIcons}){
 	
 	return(
 		<ul>
-			{loading? <Loading/> : <li className={css.icon_list}>
-				<Suspense fallback={ <Loading /> }>
+			{loading? <LoadingX/> : <li className={css.icon_list}>
+				<Suspense fallback={ <LoadingX /> }>
 					{icons.map((icon, index) => {
 						return icon.styles.map((style) => {
 							return <Link

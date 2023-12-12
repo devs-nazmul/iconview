@@ -12,11 +12,14 @@ export default function Model({children}) {
 	return(
 		<div className={css.model}>
 			
-			<div  className={css.close}>
-				<Button onClick={(e) => { e.stopPropagation(); router.back()}} type="second" mini border> <Xmark_Far/></Button>
+			<div className={css.close}>
+				<Button onClick={(e) => { e.stopPropagation(); router.back() }} type="second" mini border> <Xmark_Far/></Button>
 			</div>
 			
-			{children}
+			<div className={css.grid}>
+				{children}
+			</div>
+			
 		</div>
 	)
 }

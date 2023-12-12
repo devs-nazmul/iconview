@@ -3,6 +3,7 @@ import Model from "@/components/model";
 import css from './page.module.css'
 import prisma from "@/libs/prisma";
 import ShowIconDetail from "@/components/showIconDetail";
+import {Suspense} from "react";
 
 
 export default async function Page({params, searchParams}){
@@ -22,10 +23,9 @@ export default async function Page({params, searchParams}){
 	})
 	
 	
-	
 	return(
-		<Model >
-			<ShowIconDetail type={searchParams?.type} icon={icon}  />
+		<Model>
+				<ShowIconDetail type={searchParams?.type} icon={icon}  />
 		</Model>
 	)
 }

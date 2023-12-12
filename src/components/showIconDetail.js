@@ -11,15 +11,18 @@ import {Brand_React_Tbr} from "iconview/svgs/Brand_React_Tbr";
 import {Brand_Nextjs_Tbr} from "iconview/svgs/Brand_Nextjs_Tbr";
 import {Brand_Figma_Tbr} from "iconview/svgs/Brand_Figma_Tbr";
 import {Brand_React_Native_Tbr} from "iconview/svgs/Brand_React_Native_Tbr";
+import {useFilter} from "@/state/useFilter";
+import handleDownload from "@/libs/handleDownload";
 
-
-export default function ShowIconDetail({icon, type}){
+export default function ShowIconDetail({icon, type, user}){
 	
 	// You'll Get Icons from [id]/page or (.) intercept
 	// if Not Icon Found / Redirect or set a Demo Icon Here
 	
 	const [activeType, setActiveType] = useState(type || "regular")
 	const [activeBtn, setActiveBtn] = useState("react")
+	const { filter } = useFilter()
+	
 	
 	// console.log(activeType);
 	
@@ -33,9 +36,7 @@ export default function ShowIconDetail({icon, type}){
 	// console.log(activeStyle.svg);
 	
 	return(
-		<div className={css.grid}>
-			
-			{/*	Temporary Sow Icons */}
+		<>
 			<div className={css.svg_cont}>
 				
 				{/*<div className={css.iconPrev} role="img" dangerouslySetInnerHTML={{__html: activeStyle.svg}}/>*/}
@@ -56,22 +57,21 @@ export default function ShowIconDetail({icon, type}){
 				</div>
 			
 			</div>
-			
 			<div className={css.info}>
 				
 				<div>
 					<h3 className="font-bold mb-3"> {icon.label} </h3>
 					<div>
-						<p className="font-bold"> Vendor - <span className="text-green-600">{icon.vendor}</span> </p>
+						<p className="font-bold"> Vendor - <span className="text-green-600">{icon.vendor}</span></p>
 						<span className="uppercase font-bold text-red-600 "> {activeStyle.type} </span>
 					</div>
 				</div>
 				
 				<div className="w-full">
 					<h5 className="font-bold mb-3">Tags</h5>
-					<div className={css.tag_cont}>{ icon.tags.map((tag) => <span className={css.tag} key={tag}> {tag} </span>)}</div>
+					<div className={css.tag_cont}>{icon.tags.map((tag) => <span className={css.tag} key={tag}> {tag} </span>)}</div>
 				</div>
-
+				
 				<div className={css.codes}>
 					
 					<div className={css.code_tab}>
@@ -81,22 +81,21 @@ export default function ShowIconDetail({icon, type}){
 					</div>
 					
 					<div className={css.code_usage}>
-						<code className="font-medium"> {activeStyle.isFree? `< ${activeStyle.usage} />` : <span> Please Upgrade Plan - <Link className="text-blue-600" href={"/pricing"} > Purchase here </Link>  </span>} </code>
+						<code className="font-medium"> {activeStyle.isFree ? `< ${activeStyle.usage} />` : <span> Please Upgrade Plan - <Link className="text-blue-600" href={"/pricing"}> Purchase here </Link>  </span>} </code>
 					</div>
-					
+				
 				</div>
 				
 				<div className="w-full">
 					<h5 className="font-bold mb-3">Download Options</h5>
 					<div className={css.downloads}>
-						<Button type="second">SVG</Button>
-						<Button type="second">PNG</Button>
-						<Button type="second">SVG</Button>
+						<Button onClick={() => handleDownload(activeStyle.svg, activeStyle.isFree, activeStyle.usage, filter, "svg")} type="second">SVG</Button>
+						<Button onClick={() => handleDownload(activeStyle.svg, activeStyle.isFree, activeStyle.usage, filter, "png")} type="second">PNG</Button>
 					</div>
 				</div>
 			
 			
 			</div>
-		</div>
+		</>
 	)
 }

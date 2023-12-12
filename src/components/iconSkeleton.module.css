@@ -14,7 +14,7 @@
     overflow: hidden;
     border-radius: 5px;
     background: linear-gradient(90deg, var(--primary_ercu_white) 10%, var(--white) 50%, var(--primary_ercu_white) 80%);
-    background-size: 200% 100%;
+    background-size: 500% 100%;
     animation: loadingAnimation 3s infinite linear;
 }
 

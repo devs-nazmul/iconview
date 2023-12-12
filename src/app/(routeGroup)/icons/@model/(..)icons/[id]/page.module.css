@@ -1,0 +1,35 @@
+.skeleton{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, var(--primary_ercu_white) 10%, var(--white) 50%, var(--primary_ercu_white) 80%);
+    background-size: 500% 100%;
+    animation: loadingAnimation 3s infinite linear;
+}
+
+.svg_cont{
+    height: 400px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info > * {
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(90deg, var(--primary_ercu_white) 10%, var(--white) 50%, var(--primary_ercu_white) 80%);
+    background-size: 500% 100%;
+    animation: loadingAnimation 3s infinite linear;
+}
+
+@keyframes loadingAnimation {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
