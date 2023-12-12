@@ -30,7 +30,7 @@ export default async function Page({params, searchParams}){
 	// console.log(icon);
 	
 	return(
-		<div className="flex items-center justify-center mt-20">
+		<div className={css.grid}>
 			<ShowIconDetail type={searchParams?.type} icon={icon} />
 		</div>
 	)

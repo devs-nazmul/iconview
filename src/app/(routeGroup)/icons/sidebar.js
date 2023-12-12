@@ -23,7 +23,13 @@ export default function Sidebar(){
 	
 	useEffect(() => {
 		setFilter({ ...filter, color: color.hex })
+		
+		cssRootModify({
+			primary_icon: filter.color,
+		})
+		
 	}, [color]);
+	
 	
 	useEffect(() => {
 		cssRootModify({

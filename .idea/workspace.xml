@@ -5,19 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/icons/download/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/handleDownload.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/loadingX.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/iconSkeleton.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/iconSkeleton.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/sidebar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/model.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/showIconDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/showIconDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/showIconDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/showIconDetail.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/old_package.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/prisma/schema.prisma" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.module.css" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/login/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/register/page.js" root0="SKIP_INSPECTION" />
@@ -176,7 +170,7 @@
       <workItem from="1702321078367" duration="68000" />
       <workItem from="1702321187885" duration="7509000" />
       <workItem from="1702353057076" duration="39000" />
-      <workItem from="1702385278651" duration="10348000" />
+      <workItem from="1702385278651" duration="11199000" />
     </task>
     <servers />
   </component>

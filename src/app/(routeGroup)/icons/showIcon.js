@@ -86,11 +86,7 @@ export default function ShowIcon({initIcons}){
 	//
 	// }, [filter]);
 	
-	useEffect(() => {
-		cssRootModify({
-			primary_icon: filter.color,
-		})
-	}, [filter.color]);
+
 	
 	
 	return(
