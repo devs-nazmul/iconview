@@ -13,7 +13,7 @@ export const GET = async (request) => {
 	const vendorArray = vendor?.split("-")?.filter(Boolean);
 	
 	const p = parseInt(searchParams.get("p")) || 1
-	const itemsPerPage = 200
+	const itemsPerPage = 300
 	
 	const typeCheck = (typeArray) => {
 		if (typeArray?.length < 0 || typeArray?.includes("all") || !typeArray ){ return ["regular", "solid", "light", "thin", "colored", "brands"] }
@@ -33,6 +33,9 @@ export const GET = async (request) => {
 				{ name : { contains: query, mode: "insensitive" }},
 				{ tags: { has: query } },
 				{ label: { contains: query, mode: "insensitive" } }
+			],
+			AND: [
+				{ vendor: { in: vendorCheck(vendorArray) } }
 			]
 		},
 		

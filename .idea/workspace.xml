@@ -5,15 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prisma/migrations/20231211033316_update_db/migration.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prisma/migrations/migration_lock.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/api/speed/route.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/libs/postgres.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/loading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/loading/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/iconSkeleton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/iconSkeleton.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/icons/upload/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/icons/upload/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/icons/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/icons/route.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +163,9 @@
       <workItem from="1702127032181" duration="25107000" />
       <workItem from="1702223898261" duration="12030000" />
       <workItem from="1702236946763" duration="251000" />
-      <workItem from="1702265411703" duration="6230000" />
+      <workItem from="1702265411703" duration="6843000" />
+      <workItem from="1702321078367" duration="68000" />
+      <workItem from="1702321187885" duration="7509000" />
     </task>
     <servers />
   </component>

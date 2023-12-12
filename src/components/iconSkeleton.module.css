@@ -1,0 +1,28 @@
+.container{
+
+}
+
+.icon_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(60px,1fr));
+    grid-auto-rows: 60px;
+    gap: 10px;
+}
+
+.icon {
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    background: linear-gradient(90deg, var(--primary_ercu_white) 10%, var(--white) 50%, var(--primary_ercu_white) 80%);
+    background-size: 200% 100%;
+    animation: loadingAnimation 3s infinite linear;
+}
+
+@keyframes loadingAnimation {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
