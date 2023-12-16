@@ -9,7 +9,7 @@ export const GET = async (request) => {
 	const { email } = session?.user || { email: null };
 	
 	if (!email){
-		return Response.json({isSubscriber: isSubscriber, message: "Email Not Found" })
+		return Response.json({isSubscriber: null, message: "Email Not Found" })
 	}
 
 	const isSubscriber = await prisma.user.findUnique({

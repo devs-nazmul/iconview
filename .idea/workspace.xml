@@ -36,7 +36,7 @@
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/paymentForm.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/_comp/footer.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/app/api/icons/download/route.js" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/app/api/icons/download/route.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/app/api/icons/route.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/api/icons/upload/route.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/api/login/route.js" root0="SKIP_INSPECTION" />
@@ -168,7 +168,7 @@
       <workItem from="1702353057076" duration="39000" />
       <workItem from="1702385278651" duration="11367000" />
       <workItem from="1702439225171" duration="1337000" />
-      <workItem from="1702701868370" duration="1145000" />
+      <workItem from="1702701868370" duration="1542000" />
     </task>
     <servers />
   </component>
