@@ -2,8 +2,8 @@
 
 export default async function handleDownload(svg, isFree, filename, filter, type){
 	
-	const reqUser = await fetch("/api/icons/download")
-	const res = await reqUser.json()
+	const reqUser = await fetch(`/api/icons/download`)
+	const res = await reqUser?.json()
 	
 	// Check If Svg is Free or If they have Subscriptions
 	

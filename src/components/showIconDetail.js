@@ -39,8 +39,6 @@ export default function ShowIconDetail({icon, type, user}){
 		<>
 			<div className={css.svg_cont}>
 				
-				{/*<div className={css.iconPrev} role="img" dangerouslySetInnerHTML={{__html: activeStyle.svg}}/>*/}
-				
 				<div className={css.iconPrev}
 				     dangerouslySetInnerHTML={{__html: activeStyle.svg}}
 				/>
@@ -57,6 +55,7 @@ export default function ShowIconDetail({icon, type, user}){
 				</div>
 			
 			</div>
+			
 			<div className={css.info}>
 				
 				<div>
@@ -71,7 +70,6 @@ export default function ShowIconDetail({icon, type, user}){
 					<h5 className="font-bold mb-3">Tags</h5>
 					<div className={css.tag_cont}>{icon.tags.map((tag) => <span className={css.tag} key={tag}> {tag} </span>)}</div>
 				</div>
-				
 				<div className={css.codes}>
 					
 					<div className={css.code_tab}>
@@ -85,7 +83,6 @@ export default function ShowIconDetail({icon, type, user}){
 					</div>
 				
 				</div>
-				
 				<div className="w-full">
 					<h5 className="font-bold mb-3">Download Options</h5>
 					<div className={css.downloads}>
@@ -93,8 +90,7 @@ export default function ShowIconDetail({icon, type, user}){
 						<Button onClick={() => handleDownload(activeStyle.svg, activeStyle.isFree, activeStyle.usage, filter, "png")} type="second">PNG</Button>
 					</div>
 				</div>
-			
-			
+				
 			</div>
 		</>
 	)
