@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/icons/download/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/icons/download/route.js" afterDir="false" />
-    </list>
+    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +78,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/home/belivup/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -169,6 +166,8 @@
       <workItem from="1702385278651" duration="11367000" />
       <workItem from="1702439225171" duration="1337000" />
       <workItem from="1702701868370" duration="1542000" />
+      <workItem from="1702740838207" duration="186000" />
+      <workItem from="1702741071787" duration="152000" />
     </task>
     <servers />
   </component>
