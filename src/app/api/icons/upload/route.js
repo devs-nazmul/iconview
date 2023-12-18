@@ -5,7 +5,7 @@ import prisma from "@/libs/prisma";
 export const GET = async ( request ) => {
 	
 	// Get Icon Data From Request, Instead of Loacl Icons
-	// const body = await request.json()
+	// const body = await _request.json()
 	// Verify Icons Upload
 	
 	return Response.json({ message : "Not Allowed" })

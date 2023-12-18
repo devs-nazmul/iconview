@@ -5,7 +5,7 @@
 //
 // import { postgres } from "@/libs/postgres";
 //
-// export const GET = async (request) => {
+// export const GET = async (_request) => {
 //
 // 	const result = await postgres.query(`
 //       SELECT *

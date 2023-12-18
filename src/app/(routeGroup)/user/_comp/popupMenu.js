@@ -16,7 +16,7 @@ export default function PopupMenu({user, setShowMenu, showMenu}){
 		{id: 1, name: user.name, link: "/user/profile", icon: <User_Hair_Fad/> },
 		{id: 2, name: "Billing", link: "/user/billing", icon: <Credit_Card_Fad/> },
 		{id: 3, name: "Upload", link: "/user/upload", icon: <Cloud_Plus_Fad/> },
-		{id: 4, name: "Request", link: "/user/request", icon: <Code_Pull_Request_Fad/> },
+		{id: 4, name: "Request", link: "/user/_request", icon: <Code_Pull_Request_Fad/> },
 		{id: 5, name: "Ticket", link: "/user/ticket", icon: <Ticket_Airline_Fad/> },
 	]
 	

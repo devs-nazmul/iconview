@@ -1,9 +1,10 @@
 
+import {redirect} from "next/navigation";
 
-export default function Page(){
-	return(
-		<section>
-			<h3>User Dashboard</h3>
-		</section>
-	)
+
+export default async function Page(){
+	
+	redirect("/user/profile")
+	
+	return <section> Redirect to USER </section>
 }
