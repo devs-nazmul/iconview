@@ -14,9 +14,10 @@
 .feature_list{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 50px;
     padding: 20px 0;
+    flex-wrap: wrap;
 }
 
 .feature_list li{
@@ -31,6 +32,12 @@
     transition: all 0.3s;
     cursor: inherit;
     border: 1px solid var(--primary_border);
+}
+
+@media screen and (max-width: 1000px) {
+    .feature_list{
+        gap: 20px;
+    }
 }
 
 .feature_list li img{

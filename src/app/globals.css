@@ -117,3 +117,51 @@ p, span, a, i{
 .rcp-field-label{
     display: none;
 }
+
+
+@media screen and (max-width: 700px){
+
+    h1{
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 130%;
+        font-family: var(--font-poppins);
+    }
+
+    h2{
+        font-size: 30px;
+        font-weight: bold;
+        line-height: 120%;
+        font-family: var(--font-poppins);
+    }
+
+    h3{
+        font-size: 25px;
+        font-weight: 600;
+        font-family: var(--font-poppins);
+    }
+
+    h4{
+        font-size: 20px;
+        font-weight: 500;
+        font-family: var(--font-poppins);
+    }
+
+    h5{
+        font-size: 14px;
+        font-weight: 500;
+        font-family: var(--font-poppins);
+    }
+
+    h6{
+        font-size: 14px;
+        font-weight: 500;
+        font-family: var(--font-poppins);
+    }
+}
+
+@media screen and (max-width: 700px){
+    .main_container{
+        margin-top: 58px;
+    }
+}

@@ -12,6 +12,14 @@
     flex-direction: column;
 }
 
+.sec_pad h2 {
+    text-align: center;
+}
+
+.sec_pad h2+h5{
+    text-align: center;
+}
+
 .feature_list{
     display: flex;
     align-items: center;
@@ -26,7 +34,13 @@
     width: 100%;
     gap: 50px;
     padding-top: 50px;
+}
 
+@media screen and (max-width: 1250px){
+
+    .listGrid{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 .platform_box{
@@ -37,6 +51,33 @@
     display: flex;
     overflow: auto;
     transition: all 0.3s;
+}
+
+@media screen and (max-width: 900px){
+    .platform_box{
+        height: 120px;
+    }
+
+    .info h4{
+        font-size: 18px;
+    }
+    .info span{
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .listGrid{
+        grid-template-columns: 1fr;
+        gap: 10px;
+
+    }
+}
+
+
+@media screen and (max-width: 600px){
+
 }
 
 .platform_box:hover{

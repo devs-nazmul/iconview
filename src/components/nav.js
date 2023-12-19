@@ -15,6 +15,7 @@ import Image from "next/image";
 import { createPortal } from 'react-dom';
 
 import guest_user from '@/assets/guest_user.png'
+import {Bars_Far} from "iconview/svgs/Bars_Far";
 
 export default function NavMenu({user}){
 	
@@ -54,6 +55,8 @@ export default function NavMenu({user}){
 				</ul>
 				
 				<div className={css.nav_btn}>
+					<Button className={css.hide_nav} onClick={() => alert("Showing Nav Menu")} type={"outline"} mini icon_start={<Bars_Far size="18px" />}> </Button>
+					
 					<Button onClick={() => alert("Mode Changed")} type={"outline"} mini icon_start={<Moon_Over_Sun_Far size="18px" />}> </Button>
 					{!isLogged && <Button onClick={() => router.push("/login")} type={"primary"}> Login </Button>}
 					{!isLogged && <Button onClick={() => router.push("/register")} type={"outline"} > Register </Button>}

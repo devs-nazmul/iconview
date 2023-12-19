@@ -1,6 +1,7 @@
 .heroSection{
     background: var(--gradient_hero);
     height: 75vh;
+    min-height: 700px;
     display: flex;
     align-items: center;
 }
@@ -29,6 +30,13 @@
     max-width: 600px;
     font-weight: 400;
 }
+
+@media screen and (max-width: 1200px){
+    .hero_info h1{
+        font-size: 40px;
+    }
+}
+
 
 .hero_search{
     display: flex;
@@ -77,6 +85,22 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+    .hero_video{
+        display: none;
+    }
+
+    .heroGrid{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .hero_info{
+        align-items: center;
+    }
+
 }
 
 .hero_video img{

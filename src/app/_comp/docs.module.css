@@ -11,6 +11,14 @@
     flex-direction: column;
 }
 
+.sec_pad h2 {
+    text-align: center;
+}
+
+.sec_pad h2+h5{
+    text-align: center;
+}
+
 .listGrid{
     display: flex;
     background: var(--primary_ercu_white);
@@ -18,6 +26,13 @@
     gap: 20px;
     margin-top: 20px;
     border-radius: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+
 }
 
 .listGrid button{
@@ -41,6 +56,20 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
+
+@media screen and (max-width: 1000px){
+    .docs_container{
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .docs_container{
+        grid-template-columns: 1fr;
+    }
+}
+
+
 
 .docs{
 

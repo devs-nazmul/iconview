@@ -55,6 +55,7 @@ model User {
   sessions          Session[]
   subscriber        Subscriber?
   stripe_cid        String?
+  custom_image      CustomImage[]
 }
 
 model VerificationToken {
@@ -97,6 +98,13 @@ model Style {
   svg     String
   Icon    Icon    @relation(fields: [iconId], references: [id],  onDelete: Cascade)
   iconId  String
+}
+
+model CustomImage {
+  id      String   @id @default(cuid()) @unique
+  image   Bytes
+  userId  String
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
 }
 
 // model Usage {

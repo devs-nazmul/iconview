@@ -15,6 +15,26 @@
     gap: 50px;
 }
 
+@media screen and (max-width: 1000px) {
+    .footer{
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+    }
+
+    .footer div:last-child{
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+}
+
 .logo{
     background: var(--gradient_logo);
     -webkit-background-clip: text;
