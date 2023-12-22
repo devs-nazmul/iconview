@@ -6,6 +6,13 @@
     flex-direction: column;
 }
 
+
+@media screen and (max-width: 770px){
+    .sidebar{
+        display: none;
+    }
+}
+
 .sidebar button{
     justify-content: flex-start;
     border-radius: 0;

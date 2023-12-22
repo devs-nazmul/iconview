@@ -28,7 +28,7 @@ export default function NotFound() {
 						
 						<br/>
 						
-						<div className="flex gap-4">
+						<div className="flex gap-4 items-center">
 							<Link href={"/"}><Button type="primary"> Go Home</Button></Link>
 							<Link href={"/icons"}><Button border type="second"> Browse Icons </Button></Link>
 						</div>

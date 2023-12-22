@@ -5,8 +5,9 @@ import {useState} from "react";
 import {Arrow_Turn_Down_Fas} from "iconview/svgs/Arrow_Turn_Down_Fas";
 import {useFilter} from "@/state/useFilter";
 import {usePathname} from "next/navigation";
+import cls from "@/libs/cls";
 
-export default function Input({place, icon_start}){
+export default function Input({place, icon_start, className}){
 	
 	const [isEmpty, setEmpty] = useState("")
 	const { filter, setFilter } = useFilter()
@@ -15,7 +16,7 @@ export default function Input({place, icon_start}){
 
 	
 	return(
-		<form action={`/icons?q=${filter.search}`} onSubmit={ e => pathname === "/icons" && e.preventDefault() } className={css.inputFlex}>
+		<form action={`/icons?q=${filter.search}`} onSubmit={ e => pathname === "/icons" && e.preventDefault() } className={cls(css.inputFlex, className)}>
 			<span className={css.icon_start}>{icon_start}</span>
 			<input className={css.input} type="text" value={filter.search} placeholder={place} onChange={e => {setEmpty(e.target.value); setFilter({search: e.target.value})}} />
 			<span className={css.icon_end}>{isEmpty && <Arrow_Turn_Down_Fas />}</span>

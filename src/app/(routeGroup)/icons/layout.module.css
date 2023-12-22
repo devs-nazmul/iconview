@@ -14,3 +14,9 @@
     padding: 20px;
     position: relative;
 }
+
+@media screen and (max-width: 700px){
+    .children{
+        margin-left: 0;
+    }
+}

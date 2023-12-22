@@ -16,6 +16,12 @@
     justify-content: center;
 }
 
+@media screen and (max-width: 1100px){
+    .svg_cont{
+        gap: 20px;
+    }
+}
+
 .icon{
     border: 2px solid transparent;
     border-radius: 5px;

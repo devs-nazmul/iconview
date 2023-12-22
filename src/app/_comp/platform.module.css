@@ -92,12 +92,16 @@
 
 .icon{
     width: 160px;
-    background: var(--black);
+    background: var(--white);
     display: flex;
     align-items: center;
     font-size: 30px;
     color: var(--white);
     justify-content: center;
+}
+
+.icon svg{
+    color: var(--black);
 }
 
 .info{

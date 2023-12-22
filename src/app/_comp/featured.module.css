@@ -40,6 +40,12 @@
     }
 }
 
+@media screen and (max-width: 465px) {
+    .feature_list li{
+        max-width: 140px;
+    }
+}
+
 .feature_list li img{
     width: 100%;
     height: auto;

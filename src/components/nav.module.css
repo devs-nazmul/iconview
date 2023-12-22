@@ -25,6 +25,23 @@
 
 }
 
+@media screen and (max-width: 450px) {
+
+    .logo_search .logo_bg{
+        padding-right: 10px;
+        margin-left: -30px;
+    }
+
+    .links_btn .nav_btn{
+        gap: 5px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .logo{
+        font-size: 25px;
+    }
+}
 
 .logo{
     background: var(--gradient_logo);

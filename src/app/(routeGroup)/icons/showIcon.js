@@ -6,6 +6,8 @@ import Link from "next/link";
 import {useFilter} from "@/state/useFilter";
 import { cssRootModify } from 'css-root-modify'
 import LoadingX from "@/app/(routeGroup)/icons/loadingX";
+import Input from "@/components/input";
+import {Magnifying_Glass_Fas} from "iconview/svgs/Magnifying_Glass_Fas";
 
 
 export default function ShowIcon({initIcons}){
@@ -91,8 +93,11 @@ export default function ShowIcon({initIcons}){
 	
 	return(
 		<ul>
+			<Input className={css.showSearch} icon_start={<Magnifying_Glass_Fas />} place="Search your icon..." />
+			
 			{loading? <LoadingX/> : <li className={css.icon_list}>
 				<Suspense fallback={ <LoadingX /> }>
+					
 					{icons.map((icon, index) => {
 						return icon.styles.map((style) => {
 							return <Link

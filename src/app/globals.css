@@ -6,6 +6,7 @@
 :root {
     font-family: var(--font-poppins);
 
+    --main_bg: #ffffff;
     --primary_blue: #2F5AFF;
     --primary_mid: #7C8EFF;
     --primary_light: #C1C4FF;
@@ -13,6 +14,8 @@
     --primary_less_white: #EFF6FF;
     --primary_ercu_white: #ececec;
     --white: #ffffff;
+
+    --primary_btn: #14213d;
 
     --black: #222222;
     --primary_dark: #4C535F;
@@ -30,6 +33,7 @@
     --error: #FF3328;
     --warning: #F98F04;
     --success: #00AF6F;
+    --model_bg: rgba(231, 231, 231, 0.90);
 
     --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
 
@@ -43,9 +47,18 @@
 
 }
 
+button{
+    color: var(--white);
+}
 
-body{
+
+body, main{
     font-family: var(--font-poppins);
+    background: var(--main_bg);
+}
+
+p, div, span{
+    color: var(--black);
 }
 
 h1{
@@ -53,6 +66,7 @@ h1{
     font-weight: bold;
     line-height: 130%;
     font-family: var(--font-poppins);
+    color: var(--black);
 }
 
 h2{

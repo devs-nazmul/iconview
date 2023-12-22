@@ -67,15 +67,15 @@ export default function Page(){
 				
 				{!user?.image && <> <input ref={imageRef} id="file" type="file" placeholder="Upload images"/> <br/> <br/> </>}
 				
-				<div className="flex gap-4">
+				<div className="flex gap-4 flex-wrap">
 					<div>
 						<label htmlFor="name">Full Name</label> <br/>
-						<input onChange={(e) => setUser({...user, name: e.target.value})} className="p-3 bg-gray-200 rounded" id="name" type="text" value={user?.name}/>
+						<input onChange={(e) => setUser({...user, name: e.target.value})} className="p-3 bg-gray-400 rounded" id="name" type="text" value={user?.name}/>
 					</div>
 					
 					<div>
 						<label htmlFor="name">Full Name</label> <br/>
-						<input className="p-3 bg-gray-200 rounded" disabled readOnly id="email" type="email" value={user?.email}/>
+						<input className="p-3 bg-gray-400 rounded" disabled readOnly id="email" type="email" value={user?.email}/>
 					</div>
 					
 				</div>

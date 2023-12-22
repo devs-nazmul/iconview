@@ -1,11 +1,12 @@
 .twoGrid{
-    display: grid;
-    grid-template-columns: 1fr 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
 .pay_btn{
-    width: 50%;
     height: 50px;
     margin: 20px 0;
 }
