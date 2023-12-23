@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="responsive">
+    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="dark theme added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/layout.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/layout.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/_comp/popupMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/_comp/popupMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/_comp/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/_comp/sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/profile/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/profile/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_comp/featured.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/featured.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_comp/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/hero.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_comp/platform.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/platform.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/not-found.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/not-found.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/model.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/model.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/showIconDetail.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/showIconDetail.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/showIconDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/showIconDetail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +196,8 @@
       <workItem from="1702917412759" duration="60000" />
       <workItem from="1702921866120" duration="12078000" />
       <workItem from="1703003014189" duration="5252000" />
-      <workItem from="1703259458420" duration="14101000" />
+      <workItem from="1703259458420" duration="14301000" />
+      <workItem from="1703278039336" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
@@ -234,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703008619663</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dark theme added">
+      <option name="closed" value="true" />
+      <created>1703277818773</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703277818773</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +244,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="etc" />
     <MESSAGE value="responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="responsive" />
+    <MESSAGE value="dark theme added" />
+    <option name="LAST_COMMIT_MESSAGE" value="dark theme added" />
   </component>
 </project>

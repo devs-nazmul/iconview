@@ -79,7 +79,7 @@ export default function ShowIconDetail({icon, type, user}){
 					</div>
 					
 					<div className={css.code_usage}>
-						<code className="font-medium"> {activeStyle.isFree ? `< ${activeStyle.usage} />` : <span> Please Upgrade Plan - <Link className="text-blue-600" href={"/pricing"}> Purchase here </Link>  </span>} </code>
+						<code className="font-medium"> {activeStyle.isFree ? `<${activeStyle.usage} />` : <span> Please Upgrade Plan - <Link className="text-blue-600" href={"/pricing"}> Purchase here </Link>  </span>} </code>
 					</div>
 				
 				</div>
