@@ -111,7 +111,6 @@ export default function NavMenu({user}){
 				gradient_two: "linear-gradient(285deg, #A9DCFF 13.12%, #FFF5D2 99.74%)"
 			})
 		}
-		
 	}
 	
 	return(
