@@ -1,22 +1,26 @@
+"use client"
+
 import css from './popupMenu.module.css'
 import Button from "@/components/button";
 import Link from "next/link";
-import {Credit_Card_Fad} from "iconview/svgs/Credit_Card_Fad";
-import {Upload_Fad} from "iconview/svgs/Upload_Fad";
-import {Code_Pull_Request_Fad} from "iconview/svgs/Code_Pull_Request_Fad";
-import {Ticket_Airline_Fad} from "iconview/svgs/Ticket_Airline_Fad";
-import {signOut} from "next-auth/react";
-import {User_Hair_Fad} from "iconview/svgs/User_Hair_Fad";
-import {Cloud_Plus_Fad} from "iconview/svgs/Cloud_Plus_Fad";
 import {createPortal} from "react-dom";
 
-export default function PopupMenu({ setShow, show, links}){
+import {Right_To_Bracket_Far} from "iconview/svgs/Right_To_Bracket_Far";
+import {User_Plus_Far} from "iconview/svgs/User_Plus_Far";
+import {useRouter} from "next/navigation";
+
+export default function PopupMenu({ setShow, show, links, isLogged}){
 	
+	const router = useRouter()
 	
 	return(
 		createPortal(<div className={css.popup_cont}>
 			{links.map(list => <Link key={list.id} href={list.link}> <Button onClick={(e) => {setShow(!setShow)}} icon_start={list.icon || null } type="link"> {list.name} </Button> </Link> )}
-			<Button onClick={() => signOut()} icon_start={<Ticket_Airline_Fad/>} type="link"> Logout </Button>
+			<hr/>
+			{!isLogged && <Button onClick={() => { setShow(!setShow); router.push("/login") }}  icon_start={ <Right_To_Bracket_Far/> } type={"link"}> Login </Button>}
+			{!isLogged && <Button onClick={() => { setShow(!setShow); router.push("/register") }} icon_start={ <User_Plus_Far/> } type={"link"} > Register </Button>}
+			
+			{/*<Button onClick={() => signOut()} icon_start={<Ticket_Airline_Fad/>} type="link"> Logout </Button>*/}
 		</div>, document.body)
 	)
 }

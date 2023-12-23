@@ -23,15 +23,9 @@ export default function NotFound() {
 						<br/>
 						
 						<p>Could not find requested resource</p>
-						<p>We couldn’t find what you searched for. Try searching again.</p>
+						<p>We could’t find what you searched for. Try searching again.</p>
 						<p>Or Report an issues Here - <Link href={"/support"}> <span className="text-blue-600">Report</span> </Link> </p>
 						
-						<br/>
-						
-						<div className="flex gap-4 items-center">
-							<Link href={"/"}><Button type="primary"> Go Home</Button></Link>
-							<Link href={"/icons"}><Button border type="second"> Browse Icons </Button></Link>
-						</div>
 					</div>
 				</div>
 			</div>

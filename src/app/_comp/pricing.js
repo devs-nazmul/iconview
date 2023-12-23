@@ -1,3 +1,4 @@
+
 import css from "./pricing.module.css";
 import {Check_Fad} from "iconview/svgs/Check_Fad";
 import {Xmark_Fad} from "iconview/svgs/Xmark_Fad";
@@ -6,10 +7,23 @@ import {User_Fad} from "iconview/svgs/User_Fad";
 import cls from "@/libs/cls";
 import Image from "next/image";
 import istanbul from '@/assets/istanbul.png'
+import {getServerSession} from "next-auth/next";
+import {authOptions} from "@/app/api/auth/[...nextauth]/route";
+import prisma from "@/libs/prisma";
 
-export default function Pricing({hideTitle, plan}){
+export default async function Pricing({hideTitle}){
 	
-	const currentPlan = plan?.name?.toLowerCase()
+	// Check if any User
+	const session = await getServerSession(authOptions)
+	let email = null, isSubs = null, user = null;
+	
+	if (session){
+		email = session?.user?.email;
+		user = await prisma.user.findUnique({ where: {email: email}, include: {subscriber: true} })
+		isSubs = user?.subscriber
+	}
+	
+	const currentPlan = isSubs?.name?.toLowerCase()
 	
 	return(
 		<section className={css.section}>

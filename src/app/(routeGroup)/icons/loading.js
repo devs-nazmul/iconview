@@ -1,5 +1,6 @@
 import IconSkeleton from "@/components/iconSkeleton";
 
-export default function page(){
+export default function Loading() {
 	return <IconSkeleton />
 }
+

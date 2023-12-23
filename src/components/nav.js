@@ -138,12 +138,13 @@ export default function NavMenu({user}){
 					
 					<Button onClick={ changeTheme } type={"outline"} mini icon_start={dark? <Moon_Over_Sun_Far size="18px" /> : <Moon_Fas size="18px" />}> </Button>
 					
-					{!isLogged && <Button onClick={() => router.push("/login")} type={"primary"}> Login </Button>}
-					{!isLogged && <Button onClick={() => router.push("/register")} type={"outline"} > Register </Button>}
+					{!isLogged && <Button className={css.loginBtn} onClick={() => router.push("/login")} type={"primary"}> Login </Button>}
+					{!isLogged && <Button className={css.regBtn} onClick={() => router.push("/register")} type={"outline"} > Register </Button>}
+					
 					{isLogged && <Button className={css.pic_btn} onClick={(e) => setShowMenu(!showMenu)} type={"outline"} mini > <Image className={css.pro_pic} src={user.image || guest_user } alt={"Profile Picture"} width={300} height={300} /> </Button>}
 					
-					{showMenu && createPortal(<div className={css.showMenu}> <PopupMenu links={links} show={showMenu} setShow={setShowMenu} /> </div>, document.body)}
-					{showNav && createPortal(<div className={css.showMenu}> <PopupMenu links={nav_links} show={showNav} setShow={setShowNav} /> </div>, document.body)}
+					{showMenu && createPortal(<div className={css.showMenu}> <PopupMenu isLogged={isLogged} links={links} show={showMenu} setShow={setShowMenu} /> </div>, document.body)}
+					{showNav && createPortal(<div className={css.showMenu}> <PopupMenu isLogged={isLogged} links={nav_links} show={showNav} setShow={setShowNav} /> </div>, document.body)}
 				</div>
 				
 			</div>

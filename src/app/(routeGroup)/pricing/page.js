@@ -8,24 +8,6 @@ import prisma from "@/libs/prisma";
 
 export default async function Page(){
 	
-	// Check if any User
-	const session = await getServerSession(authOptions)
-	
-	let email = null, currentPlan = null, user = null;
-	
-	if (session){
-		
-		email = session?.user?.email;
-		
-		user = await prisma.user.findUnique({
-			where: {email: email}, include: {subscriber: true}
-		})
-		
-		currentPlan = user?.subscriber
-		
-	}
-	
-	
 	return(
 		<div className={css.page}>
 			
@@ -34,7 +16,7 @@ export default async function Page(){
 				<h4>Stay Focused and get the icon you need within your design app. </h4>
 			</div>
 			
-			<Pricing plan={currentPlan} hideTitle />
+			<Pricing hideTitle />
 			<Footer />
 		</div>
 	)

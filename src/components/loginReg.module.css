@@ -11,6 +11,21 @@
     background: var(--primary_blue);
 }
 
+@media screen and (max-width: 800px){
+    .container{
+        grid-template-columns: 1fr;
+    }
+
+    .illus{
+        display: none;
+    }
+}
+
+.illus img{
+    max-height: 600px;
+    width: auto;
+}
+
 .right_form{
     background: var(--white);
     height: 100%;

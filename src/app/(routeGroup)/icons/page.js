@@ -1,7 +1,6 @@
 
 import css from './page.module.css'
 import ShowIcon from "@/app/(routeGroup)/icons/showIcon";
-import icons from '@/assets/initialData'
 import prisma from "@/libs/prisma";
 
 export default async function Page(){

@@ -16,7 +16,7 @@ const poppins = Poppins({
 
 export const metadata = {
   title: 'iconview.org',
-  description: 'Get Access to 100k+ Svg High Quality Vector Icons for React, Nextjs, React Native and Figma. Unlimited Download For Free.',
+  description: 'Open Source icon Library, Get Access to 100k+ Svg High Quality Vector Icons for React, Nextjs, React Native and Figma. Unlimited Download For Free.',
 }
 
 export default async function RootLayout({ children }) {
