@@ -29,10 +29,7 @@ export const authOptions = {
 					where: { email: email }
 				})
 				
-				console.log(user);
-				
 				if (user && user.password === password) {
-					console.log(user);
 					return user
 				}
 				
