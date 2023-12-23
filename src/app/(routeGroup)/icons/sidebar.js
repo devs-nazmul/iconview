@@ -16,7 +16,7 @@ import {cssRootModify} from "css-root-modify";
 
 export default function Sidebar(){
 	
-	const [color, setColor] = useColor("#4C535F")
+	const [color, setColor] = useColor("#0E1736")
 	const [size, setSize] = useState(20)
 	
 	const { filter, setFilter } = useFilter()
