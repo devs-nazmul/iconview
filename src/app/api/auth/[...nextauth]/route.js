@@ -29,12 +29,13 @@ export const authOptions = {
 					where: { email: email }
 				})
 				
+				console.log(user);
+				
 				if (user && user.password === password) {
 					console.log(user);
-					await req.session.update();
-					
 					return user
 				}
+				
 				return null
 			}
 		}),

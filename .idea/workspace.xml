@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="dark theme added">
-      <change afterPath="$PROJECT_DIR$/src/app/loading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/loading.module.css" afterDir="false" />
+    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/docs/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/docs/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/loading/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/loadingX.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/support/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/support/page.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/_comp/popupMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/_comp/popupMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_comp/pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/pricing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_comp/support.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/support.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/not-found.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/not-found.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loginReg.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginReg.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/state/useFilter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/state/useFilter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +201,7 @@
       <workItem from="1703278039336" duration="25000" />
       <workItem from="1703309143249" duration="1599000" />
       <workItem from="1703343720978" duration="246000" />
-      <workItem from="1703344891577" duration="7139000" />
+      <workItem from="1703344891577" duration="8401000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
@@ -280,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703311350599</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="responsive">
+      <option name="closed" value="true" />
+      <created>1703354355850</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703354355850</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,8 +287,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="etc" />
-    <MESSAGE value="responsive" />
     <MESSAGE value="dark theme added" />
-    <option name="LAST_COMMIT_MESSAGE" value="dark theme added" />
+    <MESSAGE value="responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive" />
   </component>
 </project>
