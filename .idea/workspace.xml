@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="working on auth">
+    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="responsive fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/loginReg.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginReg.module.css" afterDir="false" />
     </list>
@@ -202,7 +202,7 @@
       <workItem from="1703309143249" duration="1599000" />
       <workItem from="1703343720978" duration="246000" />
       <workItem from="1703344891577" duration="9038000" />
-      <workItem from="1703426301444" duration="1366000" />
+      <workItem from="1703426301444" duration="1573000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
@@ -284,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703357899876</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="responsive fix">
+      <option name="closed" value="true" />
+      <created>1703427869633</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703427869633</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +315,7 @@
     <MESSAGE value="dark theme added" />
     <MESSAGE value="responsive" />
     <MESSAGE value="working on auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on auth" />
+    <MESSAGE value="responsive fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="responsive fix" />
   </component>
 </project>
