@@ -33,26 +33,29 @@ export default function IconScroll(){
 				<div>
 					<ul className={css.iconGrid} ref={lineOne} >
 						{icons.slice(0, 50).map((icon, index) => {
-							return <li role="img" key={index} className={css.iconBox}>
-								<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
+							return <li aria-label="icon" key={index} className={css.iconBox}>
+								<div dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
 							</li>
 						} )}
 					</ul>
 					
-					{/*<ul className={css.iconGrid}>*/}
-					{/*	{icons.slice(50, 100).map((icon, index) => {*/}
-					{/*		return <li role="img" key={index} className={css.iconBox}>*/}
-					{/*			<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />*/}
-					{/*		</li>*/}
-					{/*	} )}*/}
-					{/*</ul>*/}
-					{/*<ul className={css.iconGrid}>*/}
-					{/*	{icons.slice(100, 150).map((icon, index) => {*/}
-					{/*		return <li role="img" key={index} className={css.iconBox}>*/}
-					{/*			<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />*/}
-					{/*		</li>*/}
-					{/*	} )}*/}
-					{/*</ul>*/}
+					<ul className={css.iconGrid}>
+						{icons.slice(50, 100).map((icon, index) => {
+							return <li aria-label="icon"  key={index} className={css.iconBox}>
+								<div dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
+							</li>
+						} )}
+					</ul>
+					
+					<ul className={css.iconGrid}>
+						{icons.slice(100, 150).map((icon, index) => {
+							return <li aria-label="icon" key={index} className={css.iconBox}>
+								<div dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
+							</li>
+						} )}
+					</ul>
+					
+					
 					{/*<ul className={css.iconGrid}>*/}
 					{/*	{icons.slice(150, 200).map((icon, index) => {*/}
 					{/*		return <li role="img" key={index} className={css.iconBox}>*/}

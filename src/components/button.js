@@ -20,7 +20,7 @@ export default function Button({name, icon_start, mini, icon_end, children, type
 	
 	
 	return(
-		<button name={name} disabled={disabled} onClick={onClick} className={cls(css.btn, styles[type], styles["border"], styles["mini"] , className)}>
+		<button aria-label={name} disabled={disabled} onClick={onClick} className={cls(css.btn, styles[type], styles["border"], styles["mini"] , className)}>
 			{icon_start} {children} {icon_end}
 		</button>
 	)
