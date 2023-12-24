@@ -42,11 +42,11 @@ export default function Footer(){
 						<Input icon_start={<Paper_Plane_Top_Fad />} place="Email Address"/>
 						<br/>
 						<div className={css.social}>
-							<Button mini> <Facebook_Fab/> </Button>
-							<Button mini> <Twitter_Fab/> </Button>
-							<Button mini> <Linkedin_Fab/> </Button>
-							<Button mini> <Github_Fab/> </Button>
-							<Button mini> <Youtube_Fab/> </Button>
+							<Button name={"facebook"} mini> <Facebook_Fab/> </Button>
+							<Button name={"twitter"} mini> <Twitter_Fab/> </Button>
+							<Button name={"linkedin"} mini> <Linkedin_Fab/> </Button>
+							<Button name={"github"} mini> <Github_Fab/> </Button>
+							<Button name={"youtube"} mini> <Youtube_Fab/> </Button>
 						</div>
 					</div>
 					

@@ -17,12 +17,12 @@ export default function Docs(){
 				<h2>Start Your Project With iconview</h2>
 				<h5>Stay Focused and get the icon you need within your design app.</h5>
 				
-				<ol className={css.listGrid}>
+				<div className={css.listGrid}>
 					<Button icon_start={<Brand_React_Tbr />} > React </Button>
 					<Button border type="second" icon_start={<Brand_Nextjs_Tbr />} > Nextjs </Button>
 					<Button border type="second" icon_start={<Brand_Figma_Tbr />} > Figma </Button>
 					<Button border type="second" icon_start={<Brand_React_Native_Tbr />} > React Native </Button>
-				</ol>
+				</div>
 				
 				<div className={css.docs_container}>
 					<div className="image">

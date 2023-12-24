@@ -4,7 +4,7 @@ import css from './button.module.css'
 import cls from "@/libs/cls";
 
 
-export default function Button({icon_start, mini, icon_end, children, type, border, className, onClick, disabled, ...rest}){
+export default function Button({name, icon_start, mini, icon_end, children, type, border, className, onClick, disabled, ...rest}){
 	
 	const styles = {
 		primary: css.btn_primary,
@@ -20,7 +20,7 @@ export default function Button({icon_start, mini, icon_end, children, type, bord
 	
 	
 	return(
-		<button name="button" disabled={disabled} onClick={onClick} className={cls(css.btn, styles[type], styles["border"], styles["mini"] , className)}>
+		<button name={name} disabled={disabled} onClick={onClick} className={cls(css.btn, styles[type], styles["border"], styles["mini"] , className)}>
 			{icon_start} {children} {icon_end}
 		</button>
 	)
