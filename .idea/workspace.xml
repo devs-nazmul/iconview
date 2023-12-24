@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="iconview 1.0.0 - Released">
+    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="speed test fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/_comp/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/docs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/_comp/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/hero.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/iconScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/iconScroll.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/_comp/platform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/platform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/_comp/pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/pricing.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
@@ -208,7 +209,7 @@
       <workItem from="1703344891577" duration="9038000" />
       <workItem from="1703426301444" duration="2713000" />
       <workItem from="1703430319842" duration="132000" />
-      <workItem from="1703430641091" duration="2063000" />
+      <workItem from="1703430641091" duration="2338000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
@@ -362,7 +363,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703433002164</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="speed test fix">
+      <option name="closed" value="true" />
+      <created>1703433425549</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1703433425549</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +396,7 @@
     <MESSAGE value="working on auth" />
     <MESSAGE value="responsive fix" />
     <MESSAGE value="iconview 1.0.0 - Released" />
-    <option name="LAST_COMMIT_MESSAGE" value="iconview 1.0.0 - Released" />
+    <MESSAGE value="speed test fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="speed test fix" />
   </component>
 </project>

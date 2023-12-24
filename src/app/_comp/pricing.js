@@ -31,7 +31,7 @@ export default async function Pricing({hideTitle}){
 				
 				{ !hideTitle && <div className="text-center mb-14">
 					<h2>Pricing Made Simple</h2>
-					<p className="sub_title">Stay Focused and get the icon you need within your design app.</p>
+					<h5>Stay Focused and get the icon you need within your design app.</h5>
 				</div> }
 				
 				<ol className={css.listGrid}>
