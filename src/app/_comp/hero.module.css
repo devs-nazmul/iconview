@@ -103,6 +103,13 @@
 
 }
 
+@media screen and (max-width: 600px) {
+    .hero_info h1{
+        font-size: 25px;
+    }
+}
+
+
 .hero_video img{
     border-radius: 10px;
 }

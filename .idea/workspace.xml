@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="responsive fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/_comp/docs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/docs.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loginReg.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginReg.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/hero.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/hero.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +202,7 @@
       <workItem from="1703309143249" duration="1599000" />
       <workItem from="1703343720978" duration="246000" />
       <workItem from="1703344891577" duration="9038000" />
-      <workItem from="1703426301444" duration="1951000" />
+      <workItem from="1703426301444" duration="2704000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
@@ -301,7 +300,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703428087037</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="responsive fix">
+      <option name="closed" value="true" />
+      <created>1703428572871</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1703428572871</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
