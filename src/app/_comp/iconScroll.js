@@ -39,41 +39,41 @@ export default function IconScroll(){
 						} )}
 					</ul>
 					
-					<ul className={css.iconGrid}>
-						{icons.slice(50, 100).map((icon, index) => {
-							return <li role="img" key={index} className={css.iconBox}>
-								<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
-							</li>
-						} )}
-					</ul>
-					<ul className={css.iconGrid}>
-						{icons.slice(100, 150).map((icon, index) => {
-							return <li role="img" key={index} className={css.iconBox}>
-								<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
-							</li>
-						} )}
-					</ul>
-					<ul className={css.iconGrid}>
-						{icons.slice(150, 200).map((icon, index) => {
-							return <li role="img" key={index} className={css.iconBox}>
-								<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
-							</li>
-						} )}
-					</ul>
-					<ul className={css.iconGrid}>
-						{icons.slice(200, 250).map((icon, index) => {
-							return <li role="img" key={index} className={css.iconBox}>
-								<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
-							</li>
-						} )}
-					</ul>
-					<ul className={css.iconGrid}>
-						{icons.slice(250, 300).map((icon, index) => {
-							return <li role="icon" key={index} className={css.iconBox}>
-								<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />
-							</li>
-						} )}
-					</ul>
+					{/*<ul className={css.iconGrid}>*/}
+					{/*	{icons.slice(50, 100).map((icon, index) => {*/}
+					{/*		return <li role="img" key={index} className={css.iconBox}>*/}
+					{/*			<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />*/}
+					{/*		</li>*/}
+					{/*	} )}*/}
+					{/*</ul>*/}
+					{/*<ul className={css.iconGrid}>*/}
+					{/*	{icons.slice(100, 150).map((icon, index) => {*/}
+					{/*		return <li role="img" key={index} className={css.iconBox}>*/}
+					{/*			<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />*/}
+					{/*		</li>*/}
+					{/*	} )}*/}
+					{/*</ul>*/}
+					{/*<ul className={css.iconGrid}>*/}
+					{/*	{icons.slice(150, 200).map((icon, index) => {*/}
+					{/*		return <li role="img" key={index} className={css.iconBox}>*/}
+					{/*			<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />*/}
+					{/*		</li>*/}
+					{/*	} )}*/}
+					{/*</ul>*/}
+					{/*<ul className={css.iconGrid}>*/}
+					{/*	{icons.slice(200, 250).map((icon, index) => {*/}
+					{/*		return <li role="img" key={index} className={css.iconBox}>*/}
+					{/*			<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />*/}
+					{/*		</li>*/}
+					{/*	} )}*/}
+					{/*</ul>*/}
+					{/*<ul className={css.iconGrid}>*/}
+					{/*	{icons.slice(250, 300).map((icon, index) => {*/}
+					{/*		return <li role="img" key={index} className={css.iconBox}>*/}
+					{/*			<div role="img" dangerouslySetInnerHTML={{ __html: Object.values(icon.row) }} />*/}
+					{/*		</li>*/}
+					{/*	} )}*/}
+					{/*</ul>*/}
 					
 				</div>
 			</div>
