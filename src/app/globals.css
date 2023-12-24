@@ -161,7 +161,7 @@ p, span, a, i{
         font-family: var(--font-poppins);
     }
 
-    h5{
+    h5, .sub_title{
         font-size: 14px;
         font-weight: 500;
         font-family: var(--font-poppins);

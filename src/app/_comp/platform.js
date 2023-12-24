@@ -7,7 +7,7 @@ export default function Platform(){
 		<section className={css.section}>
 			<div className={css.sec_pad}>
 				<h2>Available Platforms</h2>
-				<h5>Stay Focused and get the icon you need within your design app.</h5>
+				<p className="sub_title">Stay Focused and get the icon you need within your design app.</p>
 				<ol className={css.listGrid}>
 					<li className={css.platform_box}>
 						<div className={css.icon}>

@@ -18,7 +18,7 @@ export default function Hero(){
 				<div className={css.heroGrid}>
 					<div className={css.hero_info}>
 						<h1 className="font-black">Open Source icon library. <br/> 100k+ icons for React, Nextjs, Figma and For_Everyone</h1>
-						<h5>Get Access to 100k+ Svg High Quality Vector Icons for web, mobile and desktop, Unlimited Download and usage For Free.</h5>
+						<p className="sub_title">Get Access to 100k+ Svg High Quality Vector Icons for web, mobile and desktop, Unlimited Download and usage For Free.</p>
 						
 						<div className={css.hero_search}>
 							<Input place="Search your icons..." icon_start={<Magnifying_Glass_Fas />}  />

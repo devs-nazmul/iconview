@@ -15,7 +15,7 @@ export default function Docs(){
 			<div className={css.sec_pad}>
 				
 				<h2>Start Your Project With iconview</h2>
-				<h5>Stay Focused and get the icon you need within your design app.</h5>
+				<p className="sub_title">Stay Focused and get the icon you need within your design app.</p>
 				
 				<div className={css.listGrid}>
 					<Button icon_start={<Brand_React_Tbr />} > React </Button>
