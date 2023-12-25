@@ -75,3 +75,7 @@ export const POST = async (request) => {
 	
 	return new Response()
 }
+
+export const GET = async (req) => {
+	return Response.json({message: "Get Method Not Allowed"})
+}
