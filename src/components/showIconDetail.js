@@ -14,7 +14,7 @@ import {Brand_React_Native_Tbr} from "iconview/svgs/Brand_React_Native_Tbr";
 import {useFilter} from "@/state/useFilter";
 import handleDownload from "@/libs/handleDownload";
 
-export default function ShowIconDetail({icon, type, user}){
+export default function ShowIconDetail({icon, type, subs}){
 	
 	// You'll Get Icons from [id]/page or (.) intercept
 	// if Not Icon Found / Redirect or set a Demo Icon Here
@@ -30,7 +30,7 @@ export default function ShowIconDetail({icon, type, user}){
 		return <div className={"bg-white p-5 "}>No Icon Found</div>
 	}
 	
-	// console.log(icon);
+	console.log(subs);
 	
 	const activeStyle = icon.styles.filter((style) => style.type === activeType)[0]
 	// console.log(activeStyle.svg);
@@ -79,7 +79,7 @@ export default function ShowIconDetail({icon, type, user}){
 					</div>
 					
 					<div className={css.code_usage}>
-						<code className="font-medium"> {activeStyle.isFree ? `<${activeStyle.usage} />` : <span> Please Upgrade Plan - <Link className="text-blue-600" href={"/pricing"}> Purchase here </Link>  </span>} </code>
+						<code className="font-medium"> {activeStyle.isFree || subs ? `<${activeStyle.usage} />` : <span> Please Upgrade Plan - <Link className="text-blue-600" href={"/pricing"}> Purchase here </Link>  </span>} </code>
 					</div>
 				
 				</div>
