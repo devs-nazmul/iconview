@@ -7,9 +7,10 @@ const stripe = loadStripe(process.env.STRIPE_SECRET)
 
 export const POST = async (request) => {
 	
-	const req = await request.json()
+	const req = await request?.json()
 	
-	const { item } = req
+	const { item } = req || null
+	
 	console.log("Icons ----")
 	console.log(item)
 	
@@ -17,7 +18,7 @@ export const POST = async (request) => {
 	const { email } = session?.user
 
 
-	if (!email || !session ){
+	if (!email || !session || !item ){
 		return Response.json({
 			message: "Not Allowrd"
 		})
