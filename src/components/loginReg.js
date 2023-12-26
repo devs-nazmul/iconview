@@ -63,6 +63,7 @@ export default function LoginReg({activeLogin}){
 			// }, 2000)
 			
 		} else {
+			console.log(res);
 			setNotice(res.message)
 		}
 	}
