@@ -27,14 +27,17 @@ export default async function Page({params, searchParams}){
 		}
 	})
 	
-	const { email } = session?.user;
+	const { email } = session?.user || { email: null };
 	
-	const isSubscriber = await prisma.user.findUnique({
-		where: {email: email}, include: {subscriber: true}
-	})
+	let currentPlan = null
 	
-	const currentPlan = isSubscriber?.subscriber
-	
+	if (email){
+		const isSubscriber = await prisma.user.findUnique({
+			where: {email: email}, include: {subscriber: true}
+		})
+		
+		currentPlan = isSubscriber?.subscriber
+	}
 	
 	return(
 		<Model>
