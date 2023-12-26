@@ -75,7 +75,14 @@ export const POST = async (request) => {
 			console.log(`Unhandled event type ${event.type}`);
 	}
 	
-	return new Response()
+	return new Response( "Record Created" , {
+		status: 200,
+		headers: {
+			'Access-Control-Allow-Origin': '*',
+			'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+			'Access-Control-Allow-Headers': 'Content-Type, Authorization',
+		},
+	})
 }
 
 
