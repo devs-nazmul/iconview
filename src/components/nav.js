@@ -141,7 +141,7 @@ export default function NavMenu({user}){
 					{!isLogged && <Button name={"login"} className={css.loginBtn} onClick={() => router.push("/login")} type={"primary"}> Login </Button>}
 					{!isLogged && <Button name={"Register"} className={css.regBtn} onClick={() => router.push("/register")} type={"outline"} > Register </Button>}
 					
-					{isLogged && <Button name={"Menu"} className={css.pic_btn} onClick={(e) => setShowMenu(!showMenu)} type={"outline"} mini > <Image className={css.pro_pic} src={user.image || guest_user } alt={"Profile Picture"} width={300} height={300} /> </Button>}
+					{isLogged && <Button name={"Menu"} className={css.pic_btn} onClick={(e) => setShowMenu(!showMenu)} type={"outline"} mini > <Image className={css.pro_pic} src={user?.image || guest_user } alt={"Profile Picture"} width={300} height={300} /> </Button>}
 					
 					{showMenu && createPortal(<div className={css.showMenu}> <PopupMenu isLogged={isLogged} links={links} show={showMenu} setShow={setShowMenu} /> </div>, document.body)}
 					{showNav && createPortal(<div className={css.showMenu}> <PopupMenu isLogged={isLogged} links={nav_links} show={showNav} setShow={setShowNav} /> </div>, document.body)}

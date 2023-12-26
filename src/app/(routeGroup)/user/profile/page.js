@@ -12,7 +12,6 @@ import {Plus_Far} from "iconview/svgs/Plus_Far";
 export default function Page(){
 	
 	const [user, setUser] = useState(null)
-	const {update }  = useSession()
 	
 	console.log(user);
 	

@@ -29,8 +29,8 @@ export default async function Page(){
 	
 	const items = {
 		basic: {name: "Free", price: 1},
-		team: {name: "Basic", price: 160},
-		enterprise: {name: "Team", price: 500},
+		team: {name: "Team", price: 100},
+		enterprise: {name: "Enterprise", price: 300},
 	}
 	
 	return(

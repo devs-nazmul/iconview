@@ -16,7 +16,7 @@ export default function PaymentForm({items}) {
 	
 	useEffect( () => {
 		
-		fetch("/api/payinit", {
+		fetch(`${process.env.NEXT_PUBLIC_SSL}${process.env.NEXT_PUBLIC_URL}/api/payinit`, {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify({
