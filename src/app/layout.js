@@ -5,6 +5,7 @@ import AuthProvider from "@/libs/authProvider";
 import { getServerSession } from "next-auth/next"
 import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 import Footer from "@/app/_comp/footer";
+import {Analytics} from "@vercel/analytics/react";
 
 
 const poppins = Poppins({
@@ -30,6 +31,7 @@ export default async function RootLayout({ children }) {
                   <NavMenu user={session?.user} />
                   <main className="main_container">
                       {children}
+                      <Analytics />
                   </main>
                   {/*<Footer/>*/}
               </body>
