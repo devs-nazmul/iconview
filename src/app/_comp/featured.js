@@ -3,7 +3,7 @@ import css from "@/app/_comp/featured.module.css";
 import fontAwesome from '@/assets/fontAwesome.png'
 import googleFonts from '@/assets/googleFonts.png'
 import appleFonts from '@/assets/appleFonts.png'
-import bootstrap from '@/assets/bootstrap.png'
+import bs from '@/assets/bs.png'
 import freepik from '@/assets/freepik.png'
 
 import Image from "next/image";
@@ -17,7 +17,7 @@ export default function Featured(){
 					<li> <Image src={fontAwesome} alt={"FontAwesome"} /> </li>
 					<li> <Image src={googleFonts} alt={"googleFonts"} /> </li>
 					<li> <Image src={appleFonts} alt={"appleFonts"} /> </li>
-					<li> <Image src={bootstrap} alt={"bootstrap"} /> </li>
+					<li> <Image src={bs} alt={"bootstrap"} /> </li>
 					<li> <Image src={freepik} alt={"freepik"} /> </li>
 				</ul>
 			</div>
