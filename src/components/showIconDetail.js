@@ -26,7 +26,7 @@ export default function ShowIconDetail({icon, type, subs}){
 	
 	// console.log(activeType);
 	
-	if (!icon || !icon.styles || !icon.styles.some(style => style.type === type)){
+	if (!icon || !icon.styles || type && !icon.styles.some(style => style.type === type)){
 		return <div className={"bg-white p-5 "}>No Icon Found</div>
 	}
 	
