@@ -15,10 +15,10 @@ export default function Featured(){
 				<h4>Over 100k+ icons from various vendors</h4>
 				<ul className={css.feature_list}>
 					<li> <Image src={fontAwesome} alt={"FontAwesome"} /> </li>
-					<li> <Image src={googleFonts} alt={"FontAwesome"} /> </li>
-					<li> <Image src={appleFonts} alt={"FontAwesome"} /> </li>
-					<li> <Image src={bootstrap} alt={"FontAwesome"} /> </li>
-					<li> <Image src={freepik} alt={"FontAwesome"} /> </li>
+					<li> <Image src={googleFonts} alt={"googleFonts"} /> </li>
+					<li> <Image src={appleFonts} alt={"appleFonts"} /> </li>
+					<li> <Image src={bootstrap} alt={"bootstrap"} /> </li>
+					<li> <Image src={freepik} alt={"freepik"} /> </li>
 				</ul>
 			</div>
 		</section>
