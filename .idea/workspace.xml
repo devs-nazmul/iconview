@@ -38,16 +38,14 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/old_package.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/prisma/schema.prisma" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.module.css" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/login/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/pricing/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/register/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/checkoutForm.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/(routeGroup)/user/billing/paymentForm.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/app/_comp/featured.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/_comp/footer.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/app/_comp/pricing.js" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/app/api/auth/[...nextauth]/route.js" root0="SKIP_INSPECTION" />
@@ -212,7 +210,7 @@
       <workItem from="1703906917702" duration="16000" />
       <workItem from="1704302403433" duration="122000" />
       <workItem from="1704340299927" duration="13391000" />
-      <workItem from="1704360419109" duration="276000" />
+      <workItem from="1704360419109" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
