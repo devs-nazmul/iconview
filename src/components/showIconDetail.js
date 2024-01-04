@@ -19,7 +19,7 @@ export default function ShowIconDetail({icon, type, subs}){
 	// You'll Get Icons from [name]/page or (.) intercept
 	// if Not Icon Found / Redirect or set a Demo Icon Here
 	
-	const [activeType, setActiveType] = useState(type || icon.styles[0]?.type)
+	const [activeType, setActiveType] = useState(type || icon?.styles[0]?.type || "regular")
 	const [activeBtn, setActiveBtn] = useState("react")
 	const { filter } = useFilter()
 	
