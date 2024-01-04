@@ -9,7 +9,7 @@
     border: 1px solid var(--primary_ercu_white);
     box-shadow: var(--shadow);
     top: 80px;
-    position: absolute;
+    position: fixed;
     right: 20px;
     z-index: 10;
 

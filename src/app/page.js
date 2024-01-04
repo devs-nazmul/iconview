@@ -9,6 +9,7 @@ import Footer from "@/app/_comp/footer";
 
 
 export default async function Page(){
+    
     return(
         <>
             <Hero />

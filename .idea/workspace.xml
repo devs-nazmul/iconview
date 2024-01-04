@@ -4,12 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="current plan fix">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="Analytics added">
+      <change afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icon/[name]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/api/icon/[name]/route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Bootstrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/appleFonts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/freepik.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/googleFonts.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[name]/loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[name]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[name]/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[name]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[id]/page.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[name]/page.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/_comp/popupMenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/_comp/popupMenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/featured.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/featured.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/iconScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/iconScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/platform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/platform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/platform.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/platform.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/icons/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/icons/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/showIconDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/showIconDetail.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,11 +133,11 @@
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)/user" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/api/icon/[name]" />
+      <recent name="$PROJECT_DIR$/src/app/api/icon" />
       <recent name="$PROJECT_DIR$/src/assets/iconsData" />
       <recent name="$PROJECT_DIR$/src/app/api/icons/upload" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons" />
-      <recent name="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model" />
-      <recent name="$PROJECT_DIR$/src/app/(routeGroup)/icons" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -211,7 +229,10 @@
       <workItem from="1703497901994" duration="1284000" />
       <workItem from="1703602985493" duration="4465000" />
       <workItem from="1703786558290" duration="93000" />
-      <workItem from="1703863429947" duration="202000" />
+      <workItem from="1703863429947" duration="560000" />
+      <workItem from="1703906917702" duration="16000" />
+      <workItem from="1704302403433" duration="122000" />
+      <workItem from="1704340299927" duration="13085000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
@@ -469,7 +490,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703608868077</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Analytics added">
+      <option name="closed" value="true" />
+      <created>1703863764464</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1703863764464</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,6 +527,7 @@
     <MESSAGE value="wehbook fix" />
     <MESSAGE value="login fix" />
     <MESSAGE value="current plan fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="current plan fix" />
+    <MESSAGE value="Analytics added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Analytics added" />
   </component>
 </project>

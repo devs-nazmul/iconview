@@ -13,25 +13,20 @@ export default async function Page({params, searchParams}){
 	
 	// console.log(params);
 	
-	const { page, vendor } = searchParams
+	const name = params?.name
+	const type = searchParams?.type
+	
 	const session = await getServerSession(authOptions)
 	
-	// Search By Name, Vendor, Pages
-	
-	const icon = await prisma.icon.findFirst({
-		where: {
-			AND: [
-				{ name: params.id },
-				{ vendor: vendor }
-			]
-		},
+	const icons = await prisma.icon.findFirst({
+		where: { name: name },
 		include: {
 			styles: true
 		}
 	})
 	
-	const { email } = session?.user || { email: null };
 	
+	const email = session?.user?.email
 	let currentPlan = null
 	
 	if (email){
@@ -46,7 +41,7 @@ export default async function Page({params, searchParams}){
 	
 	return(
 		<div className={css.grid}>
-			<ShowIconDetail type={searchParams?.type} icon={icon} subs={currentPlan} />
+			<ShowIconDetail type={type} icon={icons} subs={currentPlan} />
 		</div>
 	)
 }

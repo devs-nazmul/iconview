@@ -110,7 +110,7 @@ model CustomImage {
 // model Usage {
 //   id          String  @id @default(cuid())
 //   name        String?
-//   style       Style  @relation(fields: [styleId], references: [id],  onDelete: Cascade)
+//   style       Style  @relation(fields: [styleId], references: [name],  onDelete: Cascade)
 //   styleId     String
 // }
 
@@ -118,7 +118,7 @@ model CustomImage {
 // model Tag {
 //   id     String @id @unique @default(cuid())
 //   tag    String?
-//   icon   Icon   @relation(fields: [iconId], references: [id], onDelete: Cascade)
+//   icon   Icon   @relation(fields: [iconId], references: [name], onDelete: Cascade)
 //   iconId String
 // }
 
@@ -127,7 +127,7 @@ model CustomImage {
 // model Path {
 //   id       String  @id @default(cuid())
 //   d        String?
-//   style    Style  @relation(fields: [styleId], references: [id],  onDelete: Cascade)
+//   style    Style  @relation(fields: [styleId], references: [name],  onDelete: Cascade)
 //   styleId  String
 // }
 //

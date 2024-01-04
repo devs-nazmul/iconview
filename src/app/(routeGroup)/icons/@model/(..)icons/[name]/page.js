@@ -11,24 +11,19 @@ import {redirect} from "next/navigation";
 
 export default async function Page({params, searchParams}){
 	
-	const { vendor } = searchParams
+	const type = searchParams?.type
 	const session = await getServerSession(authOptions)
 	
+	const name = params?.name
 	
-	const icon = await prisma.icon.findFirst({
-		where: {
-			AND: [
-				{ name: params.id },
-				{ vendor: vendor }
-			]
-		},
+	const icons = await prisma.icon.findFirst({
+		where: { name: name },
 		include: {
 			styles: true
 		}
 	})
 	
-	const { email } = session?.user || { email: null };
-	
+	const email = session?.user?.email
 	let currentPlan = null
 	
 	if (email){
@@ -41,7 +36,7 @@ export default async function Page({params, searchParams}){
 	
 	return(
 		<Model>
-				<ShowIconDetail type={searchParams?.type} icon={icon} subs={currentPlan}  />
+				<ShowIconDetail type={type} icon={icons} subs={currentPlan}  />
 		</Model>
 	)
 }

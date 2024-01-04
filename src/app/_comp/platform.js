@@ -1,5 +1,11 @@
 import css from "./platform.module.css";
 import {React_Fab} from "iconview/svgs/React_Fab";
+import {N_Fas} from "iconview/svgs/N_Fas";
+import {Figma_Fab} from "iconview/svgs/Figma_Fab";
+import {Brand_React_Native_Tbr} from "iconview/svgs/Brand_React_Native_Tbr";
+import {N_Far} from "iconview/svgs/N_Far";
+import {Desktop_Far} from "iconview/svgs/Desktop_Far";
+import {Svg_Tbr} from "iconview/svgs/Svg_Tbr";
 
 
 export default function Platform(){
@@ -11,56 +17,58 @@ export default function Platform(){
 				<ol className={css.listGrid}>
 					<li className={css.platform_box}>
 						<div className={css.icon}>
-							<React_Fab />
+							<React_Fab/>
 						</div>
 						<div className={css.info}>
 							<h4>React Application</h4>
-							<span>Npm Package for react applications with 100k icons</span>
+							<span>NPM Package for React applications with 100k icons</span>
 						</div>
 					</li>
 					<li className={css.platform_box}>
 						<div className={css.icon}>
-							<React_Fab />
+							<N_Far/>
 						</div>
 						<div className={css.info}>
-							<h4>Nextjs Application</h4>
-							<span>Npm Package for react applications with 100k icons</span>
+							<h4>Next js Application</h4>
+							<span>Next js server & client components with 100k icons</span>
 						</div>
 					</li>
 					<li className={css.platform_box}>
 						<div className={css.icon}>
-							<React_Fab />
+							<Figma_Fab/>
 						</div>
 						<div className={css.info}>
-							<h4>Figma Design</h4>
-							<span>Npm Package for react applications with 100k icons</span>
+							<h4>Figma Plugins</h4>
+							<span>Plugins available for Figma Design tools with 100k icons</span>
 						</div>
 					</li>
 					<li className={css.platform_box}>
 						<div className={css.icon}>
-							<React_Fab />
+							<React_Fab/>
 						</div>
 						<div className={css.info}>
-							<h4>React Application</h4>
-							<span>Npm Package for react applications with 100k icons</span>
+							<h4>React Native </h4>
+							<span>NPM packages available for React Native Applications with 100k icons</span>
 						</div>
 					</li>
+					
 					<li className={css.platform_box}>
 						<div className={css.icon}>
-							<React_Fab />
+							<Desktop_Far/>
 						</div>
 						<div className={css.info}>
-							<h4>React Application</h4>
-							<span>Npm Package for react applications with 100k icons</span>
+							<h4>Desktop Applications</h4>
+							<span>Cross Platform - Windows, MacOS & Linux Dev with 100k icons</span>
 						</div>
 					</li>
+					
 					<li className={css.platform_box}>
 						<div className={css.icon}>
-							<React_Fab />
+							<Svg_Tbr/>
 						</div>
 						<div className={css.info}>
-							<h4>React Application</h4>
-							<span>Npm Package for react applications with 100k icons</span>
+							<h4>SVG Icons</h4>
+							<span>High Quality vector svg icons available for downloads</span>
 						</div>
 					</li>
 				</ol>

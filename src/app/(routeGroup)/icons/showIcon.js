@@ -36,6 +36,8 @@ export default function ShowIcon({initIcons}){
 				
 				const icons = await req.json()
 				
+				console.log(icons);
+				
 				setIcons(icons)
 				setLoading(false)
 				
@@ -102,7 +104,7 @@ export default function ShowIcon({initIcons}){
 						return icon.styles.map((style) => {
 							return <Link
 								key={style.id}
-								className={css.icon} href={`/icons/${icon.name}?type=${style.type}&vendor=${icon.vendor}`}
+								className={css.icon} href={`/icons/${icon.name}?type=${style.type}`}
 								dangerouslySetInnerHTML={{__html: style.svg}} >
 							</Link>
 						})

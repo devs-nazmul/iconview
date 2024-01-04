@@ -3,8 +3,8 @@ import prisma from "@/libs/prisma";
 export const GET = async (request) => {
 	
 	const searchParams = request.nextUrl.searchParams
-	const raqQuery = searchParams.get("q")
-	const query = raqQuery ? raqQuery.charAt(0).toUpperCase() + raqQuery.slice(1) : "";
+	const rawQuery = searchParams.get("q")
+	const query = rawQuery ? rawQuery.charAt(0).toUpperCase() + rawQuery.slice(1) : "";
 	
 	const type = searchParams.get("type") || "all"
 	const typeArray = type?.split("-")?.filter(Boolean);
@@ -32,7 +32,7 @@ export const GET = async (request) => {
 			OR: [
 				{ name : { contains: query, mode: "insensitive" }},
 				{ tags: { has: query } },
-				{ label: { contains: query, mode: "insensitive" } }
+				{ label: { contains: query, mode: "insensitive" } },
 			],
 			AND: [
 				{ vendor: { in: vendorCheck(vendorArray) } }

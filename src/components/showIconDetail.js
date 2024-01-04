@@ -16,10 +16,10 @@ import handleDownload from "@/libs/handleDownload";
 
 export default function ShowIconDetail({icon, type, subs}){
 	
-	// You'll Get Icons from [id]/page or (.) intercept
+	// You'll Get Icons from [name]/page or (.) intercept
 	// if Not Icon Found / Redirect or set a Demo Icon Here
 	
-	const [activeType, setActiveType] = useState(type || "regular")
+	const [activeType, setActiveType] = useState(type || icon.styles[0]?.type)
 	const [activeBtn, setActiveBtn] = useState("react")
 	const { filter } = useFilter()
 	
@@ -30,10 +30,7 @@ export default function ShowIconDetail({icon, type, subs}){
 		return <div className={"bg-white p-5 "}>No Icon Found</div>
 	}
 	
-	console.log(subs);
-	
 	const activeStyle = icon.styles.filter((style) => style.type === activeType)[0]
-	// console.log(activeStyle.svg);
 	
 	return(
 		<>
