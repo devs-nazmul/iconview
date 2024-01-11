@@ -76,7 +76,8 @@
 
 
 .docs{
-
+    width: 100%;
+    overflow-x: auto
 }
 
 .docs strong{
@@ -89,6 +90,8 @@
     cursor: copy;
     margin: 10px 0;
     display: block;
+    overflow-x: auto;
+    white-space: pre-wrap;
 }
 
 .head{

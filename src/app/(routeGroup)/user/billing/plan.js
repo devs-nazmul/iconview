@@ -22,19 +22,19 @@ export default function Plan({items, currentPlan}){
 			
 			<div className={css.planForm}>
 				
+				{/*<label htmlFor="basic">*/}
+				{/*	<input defaultChecked onChange={() => setItem("basic")} name="plan" id="basic" type="radio" value="Basic" />*/}
+				{/*	Basic*/}
+				{/*</label>*/}
+				
 				<label htmlFor="basic">
-					<input defaultChecked onChange={() => setItem("basic")} name="plan" id="basic" type="radio" value="Basic" />
+					<input onChange={() => setItem("basic")} name="plan" id="basic" type="radio" value="basic" />
 					Basic
 				</label>
 				
 				<label htmlFor="team">
-					<input onChange={() => setItem("team")} name="plan" id="team" type="radio" value="Team" />
+					<input onChange={() => setItem("team")} name="plan" id="team" type="radio" value="team" />
 					Team
-				</label>
-				
-				<label htmlFor="enterprise">
-					<input onChange={() => setItem("enterprise")} name="plan" id="enterprise" type="radio" value="enterprise" />
-					Enterprise
 				</label>
 				
 			</div> </>}
@@ -44,7 +44,7 @@ export default function Plan({items, currentPlan}){
 					<h3>{currentPlan.name} Plan</h3>
 					<span>You Paid : {currentPlan.price}$/ Yearly</span> <br/>
 					<span>Purchase Date {create.toLocaleDateString()}</span> <br/>
-					<span>Expired Date {expired.toLocaleDateString()}</span>
+					{/*<span>Expired Date {expired.toLocaleDateString()}</span>*/}
 				</div> :
 				<div className={css.pricing}>
 				
@@ -58,37 +58,40 @@ export default function Plan({items, currentPlan}){
 				<table className={css.table}>
 					<tbody>
 					<tr>
-						<th>Head</th>
+						<th>Features</th>
 						<th>Basic</th>
-						<th>Premium</th>
-						<th>Enterprise</th>
+						<th>Team</th>
 					</tr>
 					
 					<tr>
-						<th>Head</th>
-						<td>Table Body</td>
-						<td>Table Body</td>
-						<td>Table Body</td>
+						<th>FontAwesome</th>
+						<td>Yes</td>
+						<td>Yes</td>
 					</tr>
 					
 					<tr>
-						<th>Head</th>
-						<td>Table Body</td>
-						<td>Table Body</td>
-						<td>Table Body</td>
+						<th>Materials Icons</th>
+						<td>Yes</td>
+						<td>Yes</td>
 					</tr>
 					
 					<tr>
-						<th>Head</th>
-						<td>Table Body</td>
-						<td>Table Body</td>
-						<td>Table Body</td>
+						<th>Apple Symbol</th>
+						<td>No</td>
+						<td>Yes</td>
 					</tr>
+					
+					<tr>
+						<th>Lifetime Updates</th>
+						<td>No</td>
+						<td>Yes</td>
+					</tr>
+					
 					</tbody>
 				</table>
 				
-			</div>}
-			
+				</div>}
+		
 		</section>
 	)
 }

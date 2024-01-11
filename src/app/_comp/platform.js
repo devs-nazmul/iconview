@@ -58,7 +58,7 @@ export default function Platform(){
 						</div>
 						<div className={css.info}>
 							<h4>Desktop Applications</h4>
-							<span>Cross Platform - Windows, MacOS & Linux Dev with 100k icons</span>
+							<span>Cross Platform - Windows, MacOS & Linux Develop</span>
 						</div>
 					</li>
 					

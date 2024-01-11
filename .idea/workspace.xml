@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="fix issues">
+      <change afterPath="$PROJECT_DIR$/src/assets/colors_custom.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/formats.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/platforms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/styles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/docs/figma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/docs/react.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/showIconDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/showIconDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/billing/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/billing/plan.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/billing/plan.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/docs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/docs.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/docs.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/platform.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/platform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/platform.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/platform.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/pricing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/pricing.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,33 +93,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/Projects/iconview/iconview&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.space&quot;,
-    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3347864&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/nazmul/Applications/WebStorm 2023.3.2 RC.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Volumes/Projects/iconview/iconview/src/components/docs",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.space",
+    "settings.editor.splitter.proportion": "0.3347864",
+    "ts.external.directory.path": "/Users/nazmul/Applications/WebStorm 2023.3.2 RC.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/docs" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)/icons/@model/(..)icons/[id]" />
       <recent name="$PROJECT_DIR$/src/assets/iconsData" />
       <recent name="$PROJECT_DIR$/src/app/(routeGroup)" />
       <recent name="$PROJECT_DIR$/src/app/_comp" />
-      <recent name="$PROJECT_DIR$/src/app/(routeGroup)/user" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/api/icon/[name]" />
@@ -210,7 +222,9 @@
       <workItem from="1703906917702" duration="16000" />
       <workItem from="1704302403433" duration="122000" />
       <workItem from="1704340299927" duration="13391000" />
-      <workItem from="1704360419109" duration="1183000" />
+      <workItem from="1704360419109" duration="1253000" />
+      <workItem from="1704990129407" duration="22000" />
+      <workItem from="1704990152056" duration="6338000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
@@ -524,7 +538,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704361265718</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="fix issues">
+      <option name="closed" value="true" />
+      <created>1704361674377</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1704361674377</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
