@@ -82,6 +82,10 @@
         width: 80px;
     }
 
+    .platform_box{
+        height: 140px;
+    }
+
 }
 
 .platform_box:hover{
@@ -98,7 +102,6 @@
 .icon{
     width: 120px;
     min-width: 100px;
-    max-width: 120px;
     background: var(--white);
     display: flex;
     align-items: center;
