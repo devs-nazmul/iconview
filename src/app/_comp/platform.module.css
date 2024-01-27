@@ -78,7 +78,7 @@
 
 @media screen and (max-width: 600px){
 
-    .icon{
+    .platform_box .icon{
         width: 80px;
     }
 
