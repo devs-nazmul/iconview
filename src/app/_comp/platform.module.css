@@ -78,6 +78,10 @@
 
 @media screen and (max-width: 600px){
 
+    .icon{
+        width: 80px;
+    }
+
 }
 
 .platform_box:hover{
