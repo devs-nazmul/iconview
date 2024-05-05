@@ -6,8 +6,8 @@ import prisma from "@/libs/prisma";
 export default async function Page({searchParams}){
 	
 	// This is Server Components, so Fetch from Server
-
 	const query = searchParams?.q
+	
 	let iconResult = {}
 	
 	
@@ -39,7 +39,7 @@ export default async function Page({searchParams}){
 	
 	return(
 		<div className={css.icon_cont}>
-			<ShowIcon initIcons={iconResult}/>
+			<ShowIcon query={query} initIcons={iconResult}/>
 		</div>
 	)
 }

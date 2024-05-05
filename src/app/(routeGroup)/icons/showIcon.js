@@ -9,7 +9,7 @@ import Loading from "@/app/(routeGroup)/icons/loading";
 import Input from "@/components/input";
 import {Magnifying_Glass_Fas} from "iconview/svgs/Magnifying_Glass_Fas";
 
-export default function ShowIcon({initIcons}){
+export default function ShowIcon({initIcons, searchParams, query}){
 	
 	
 	const [icons, setIcons] = useState(initIcons)
@@ -17,7 +17,9 @@ export default function ShowIcon({initIcons}){
 	
 	const { filter, setFilter } = useFilter()
 	
+	
 	useEffect( () => {
+		
 		const filterType = Object.keys(filter.type).filter((type) => filter.type[type]).join("-")
 		const filterVendor = Object.keys(filter.vendor).filter((vendor) => filter.vendor[vendor]).join("-")
 		let timeoutId;
@@ -36,7 +38,7 @@ export default function ShowIcon({initIcons}){
 				
 				const icons = await req.json()
 				
-				console.log(icons);
+				// console.log(icons);
 				
 				setIcons(icons)
 				setLoading(false)
@@ -65,37 +67,11 @@ export default function ShowIcon({initIcons}){
 
 		
 	}, [filter])
-	
-	// useEffect(() => {
-	//
-	// 	function handleScroll(){
-	//
-	// 		const scrolledToBottom = window.innerHeight + window.scrollY >= document.body.offsetHeight;
-	//
-	// 		if (scrolledToBottom) {
-	// 			console.log("Page Increased");
-	// 			setFilter({
-	// 				...filter, page : filter.page + 1
-	// 			})
-	//
-	// 			console.log(filter);
-	// 		}
-	// 	}
-	//
-	// 	window.addEventListener("scroll", handleScroll);
-	//
-	// 	return () => {
-	// 		window.removeEventListener("scroll", handleScroll);
-	// 	};
-	//
-	// }, [filter]);
-	
 
-	
 	
 	return(
 		<ul>
-			<Input className={css.showSearch} icon_start={<Magnifying_Glass_Fas />} place="Search your icon..." />
+			<Input query={query} className={css.showSearch} icon_start={<Magnifying_Glass_Fas />} place="Search your icon..." />
 			
 			{loading? <Loading/> : <li className={css.icon_list}>
 				<Suspense fallback={ <Loading /> }>

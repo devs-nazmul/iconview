@@ -89,8 +89,8 @@ Object.entries(icons).forEach( ([name, icon]) => {
 	
 	iconJson.push(iconData)
 	
-	console.log("Icon Saved", modName);
-	console.log("---");
+	// console.log("Icon Saved", modName);
+	// console.log("---");
 	
 })
 

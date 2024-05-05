@@ -6,7 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="gix responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[name]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[name]/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/profile/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/profile/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/api/payinit/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/payinit/route.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/loginReg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginReg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/libs/faFormat/app.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/faFormat/app.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +222,7 @@
       <workItem from="1705144724091" duration="4000" />
       <workItem from="1706364327892" duration="963000" />
       <workItem from="1706809090251" duration="7000" />
-      <workItem from="1714893735492" duration="12616000" />
+      <workItem from="1714893735492" duration="14337000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />

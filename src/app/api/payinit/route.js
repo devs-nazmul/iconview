@@ -11,7 +11,7 @@ export const POST = async (request) => {
 	
 	const { item } = req || null
 	
-	console.log("Icons ----")
+	// console.log("Icons ----")
 	console.log(item)
 	
 	const session = await getServerSession(authOptions)

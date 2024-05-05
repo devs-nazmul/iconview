@@ -52,8 +52,8 @@ export default function LoginReg({activeLogin}){
 		
 		const res = await createUser.json()
 		
-		console.log("From LoginReg")
-		console.log(res)
+		// console.log("From LoginReg")
+		// console.log(res)
 		
 		if (createUser.ok){
 			setNotice("Account Created Successful, Please Login")

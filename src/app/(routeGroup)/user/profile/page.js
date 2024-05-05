@@ -13,7 +13,7 @@ export default function Page(){
 	
 	const [user, setUser] = useState(null)
 	
-	console.log(user);
+	// console.log(user);
 	
 	const imageRef = useRef(null)
 	
