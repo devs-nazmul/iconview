@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="gix responsive">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[name]/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/[name]/page.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +216,7 @@
       <workItem from="1705144724091" duration="4000" />
       <workItem from="1706364327892" duration="963000" />
       <workItem from="1706809090251" duration="7000" />
-      <workItem from="1714893735492" duration="12281000" />
+      <workItem from="1714893735492" duration="12346000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />

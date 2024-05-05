@@ -1,5 +1,4 @@
 
-import { redirect } from 'next/navigation'
 
 import css from './page.module.css'
 
