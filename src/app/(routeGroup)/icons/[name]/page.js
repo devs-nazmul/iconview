@@ -8,20 +8,20 @@ import prisma from "@/libs/prisma";
 import {getServerSession} from "next-auth/next";
 import {authOptions} from "@/app/api/auth/[...nextauth]/route";
 
-export async function generateStaticParams() {
-	const iconsLists = await fetch('https://www.iconview.org/api/seo').then((res) => res.json())
-	return iconsLists.map((icon) => ({
-		name: icon.name
-	}))
-}
-
-export async function generateMetadata({ params }) {
-	const name = params?.name
-	return {
-		title: `Download ${name.replace(/-/g, ' ')} icon Free - 100k+ icons | www.iconview.org`,
-		description: `Open Source icon library, Download ${name.replace(/-/g, ' ')} icon and 100k+ icon for React & Nextjs. `,
-	}
-}
+// export async function generateStaticParams() {
+// 	const iconsLists = await fetch('https://www.iconview.org/api/seo').then((res) => res.json())
+// 	return iconsLists.map((icon) => ({
+// 		name: icon.name
+// 	}))
+// }
+//
+// export async function generateMetadata({ params }) {
+// 	const name = params?.name
+// 	return {
+// 		title: `Download ${name.replace(/-/g, ' ')} icon Free - 100k+ icons | www.iconview.org`,
+// 		description: `Open Source icon library, Download ${name.replace(/-/g, ' ')} icon and 100k+ icon for React & Nextjs. `,
+// 	}
+// }
 
 export default async function Page({params, searchParams}){
 	
