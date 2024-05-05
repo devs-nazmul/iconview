@@ -10,7 +10,7 @@ import {getServerSession} from "next-auth/next";
 import {authOptions} from "@/app/api/auth/[...nextauth]/route";
 
 export async function generateStaticParams() {
-	const iconsLists = await fetch('/api/seo').then((res) => res.json())
+	const iconsLists = await fetch('https://www.iconview.org/api/seo').then((res) => res.json())
 	return iconsLists.map((icon) => ({
 		name: icon.name
 	}))
