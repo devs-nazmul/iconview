@@ -28,7 +28,8 @@ import {File_Doc_Far} from "iconview/svgs/File_Doc_Far";
 import {Message_Arrow_Up_Right_Far} from "iconview/svgs/Message_Arrow_Up_Right_Far";
 import {cssRootModify} from "css-root-modify";
 import {Moon_Fas} from "iconview/svgs/Moon_Fas";
-import {d} from "prisma/build/public/assets/vendor";
+
+
 
 export default function NavMenu({user}){
 	

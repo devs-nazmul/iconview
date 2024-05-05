@@ -9,8 +9,8 @@ import Loading from "@/app/(routeGroup)/icons/loading";
 import Input from "@/components/input";
 import {Magnifying_Glass_Fas} from "iconview/svgs/Magnifying_Glass_Fas";
 
-
 export default function ShowIcon({initIcons}){
+	
 	
 	const [icons, setIcons] = useState(initIcons)
 	const [loading, setLoading] = useState(false)

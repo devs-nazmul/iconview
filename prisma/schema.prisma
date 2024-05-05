@@ -3,6 +3,8 @@
 
 generator client {
   provider = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+
 }
 
 // prisma/schema.prisma
