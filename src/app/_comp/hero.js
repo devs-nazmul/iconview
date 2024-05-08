@@ -22,7 +22,7 @@ export default function Hero(){
 						
 						<div className={css.hero_search}>
 							<Input place="Search your icons..." icon_start={<Magnifying_Glass_Fas />}  />
-							<Button name={"Search"} type="primary" icon_start={<Magnifying_Glass_Fas />}>  </Button>
+							{/*<Button name={"Search"} type="primary" icon_start={<Magnifying_Glass_Fas />}>  </Button>*/}
 						</div>
 						
 						<div className={css.browse_btn}>

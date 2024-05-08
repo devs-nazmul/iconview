@@ -6,13 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="gix responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/showIcon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/user/profile/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/user/profile/page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/api/payinit/route.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/payinit/route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/input.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/input.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/_comp/hero.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/_comp/hero.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/loginReg.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginReg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libs/faFormat/app.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/src/libs/faFormat/app.mjs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,26 +82,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Volumes/Projects/iconview/iconview/src/app/api/seo",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.space",
-    "settings.editor.splitter.proportion": "0.3347864",
-    "ts.external.directory.path": "/Users/nazmul/Applications/WebStorm 2023.3.2 RC.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/Projects/iconview/iconview/src/app/api/seo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.space&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.3347864&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/nazmul/Applications/WebStorm 2023.3.2 RC.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/app/api/seo" />
@@ -222,7 +217,9 @@
       <workItem from="1705144724091" duration="4000" />
       <workItem from="1706364327892" duration="963000" />
       <workItem from="1706809090251" duration="7000" />
-      <workItem from="1714893735492" duration="14337000" />
+      <workItem from="1714893735492" duration="14405000" />
+      <workItem from="1715157872237" duration="3000" />
+      <workItem from="1715200718408" duration="470000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />

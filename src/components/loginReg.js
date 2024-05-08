@@ -88,8 +88,8 @@ export default function LoginReg({activeLogin}){
 					<div className={css.social}>
 						<Button onClick={() => signIn("google")} type="second" > <Google_Fab size="17px"/> </Button>
 						<Button onClick={() => signIn("github")} type="second" > <Github_Fab size="17px"/> </Button>
-						<Button onClick={() => signIn("facebook")} type="second" > <Facebook_Fab size="17px"/> </Button>
-						<Button onClick={() => signIn("apple")} type="second" > <Apple_Fab size="17px"/> </Button>
+						{/*<Button onClick={() => signIn("facebook")} type="second" > <Facebook_Fab size="17px"/> </Button>*/}
+						{/*<Button onClick={() => signIn("apple")} type="second" > <Apple_Fab size="17px"/> </Button>*/}
 					</div>
 					
 					{activeLogin? <p> or login using email </p> : <p> or register using email </p>}
