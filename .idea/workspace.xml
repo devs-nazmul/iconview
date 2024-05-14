@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7648684b-5a7b-4cb8-9e97-be42a5ad3745" name="Changes" comment="gix responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/(routeGroup)/icons/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/(routeGroup)/icons/sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -225,7 +225,7 @@
       <workItem from="1715597385727" duration="754000" />
       <workItem from="1715684944305" duration="407000" />
       <workItem from="1715685494581" duration="278000" />
-      <workItem from="1715708361931" duration="190000" />
+      <workItem from="1715708361931" duration="518000" />
     </task>
     <task id="LOCAL-00001" summary="etc">
       <option name="closed" value="true" />
