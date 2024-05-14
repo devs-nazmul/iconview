@@ -111,24 +111,24 @@ export default function Sidebar(){
 				</div>
 			</div>
 			
-			<div className={cls(css.filter)}>
-				<div className={css.headFlex}>
-					<List_Tree_Far />
-					<span className={css.filter_value}>
-						<span>VENDORS</span>
-					</span>
-				</div>
-				
-				<div className={css.filter_body}>
-					<label className={css.checkbox_btn} htmlFor="alls"> <input checked={filter.vendor.alls} onChange={(e) => handleVendorChange(e)} id="alls" type="checkbox"/> All</label>
-					<label className={css.checkbox_btn} htmlFor="fontawesome"> <input checked={filter.vendor.fontawesome} onChange={(e) => handleVendorChange(e)} id="fontawesome" type="checkbox"/> Font Awesome</label>
-					<label className={css.checkbox_btn} htmlFor="google"> <input checked={filter.vendor.google} onChange={(e) => handleVendorChange(e)} id="google" type="checkbox"/> Google</label>
-					<label className={css.checkbox_btn} htmlFor="apple"> <input checked={filter.vendor.apple} onChange={(e) => handleVendorChange(e)} id="apple" type="checkbox"/> Apple</label>
-					<label className={css.checkbox_btn} htmlFor="bootstrap"> <input checked={filter.vendor.bootstrap} onChange={(e) => handleVendorChange(e)} id="bootstrap" type="checkbox"/> Bootstrap</label>
-					<label className={css.checkbox_btn} htmlFor="tibian"> <input checked={filter.vendor.tibian} onChange={(e) => handleVendorChange(e)} id="tibian" type="checkbox"/> Tibian</label>
-					<label className={css.checkbox_btn} htmlFor="freepik"> <input checked={filter.vendor.freepik} onChange={(e) => handleVendorChange(e)} id="freepik" type="checkbox"/> Freepik</label>
-				</div>
-			</div>
+			{/*<div className={cls(css.filter)}>*/}
+			{/*	<div className={css.headFlex}>*/}
+			{/*		<List_Tree_Far />*/}
+			{/*		<span className={css.filter_value}>*/}
+			{/*			<span>VENDORS</span>*/}
+			{/*		</span>*/}
+			{/*	</div>*/}
+			{/*	*/}
+			{/*	<div className={css.filter_body}>*/}
+			{/*		<label className={css.checkbox_btn} htmlFor="alls"> <input checked={filter.vendor.alls} onChange={(e) => handleVendorChange(e)} id="alls" type="checkbox"/> All</label>*/}
+			{/*		<label className={css.checkbox_btn} htmlFor="fontawesome"> <input checked={filter.vendor.fontawesome} onChange={(e) => handleVendorChange(e)} id="fontawesome" type="checkbox"/> Font Awesome</label>*/}
+			{/*		<label className={css.checkbox_btn} htmlFor="google"> <input checked={filter.vendor.google} onChange={(e) => handleVendorChange(e)} id="google" type="checkbox"/> Google</label>*/}
+			{/*		<label className={css.checkbox_btn} htmlFor="apple"> <input checked={filter.vendor.apple} onChange={(e) => handleVendorChange(e)} id="apple" type="checkbox"/> Apple</label>*/}
+			{/*		<label className={css.checkbox_btn} htmlFor="bootstrap"> <input checked={filter.vendor.bootstrap} onChange={(e) => handleVendorChange(e)} id="bootstrap" type="checkbox"/> Bootstrap</label>*/}
+			{/*		<label className={css.checkbox_btn} htmlFor="tibian"> <input checked={filter.vendor.tibian} onChange={(e) => handleVendorChange(e)} id="tibian" type="checkbox"/> Tibian</label>*/}
+			{/*		<label className={css.checkbox_btn} htmlFor="freepik"> <input checked={filter.vendor.freepik} onChange={(e) => handleVendorChange(e)} id="freepik" type="checkbox"/> Freepik</label>*/}
+			{/*	</div>*/}
+			{/*</div>*/}
 		</div>
 	)
 }
