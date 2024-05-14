@@ -132,9 +132,9 @@ p, span, a, i{
     display: none;
 }
 
-.rcp-saturation div{
-    height: 200px;
-}
+/*.rcp-saturation div{*/
+/*    height: 200px;*/
+/*}*/
 
 
 @media screen and (max-width: 700px){
