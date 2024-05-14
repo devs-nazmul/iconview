@@ -37,7 +37,7 @@
 
     --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
 
-    --gradient_hero: linear-gradient(296deg, #00C2FF 11.73%, #7DECBD 43.35%, #C1C4FF 87.28%);
+    --gradient_hero: linear-gradient(296deg, #00C2FF 11.73%, #7DECBD 110.35%, #C1C4FF 87.28%);
     --gradient_logo: linear-gradient(296deg, #02b5ee 11.73%, #3ee399 43.35%, #4872fd 87.28%);
     --gradient_one: linear-gradient(285deg, #B5FFEA 15.41%, #A3CDF4 61.01%, #8D92FF 98.09%);
     --gradient_two: linear-gradient(285deg, #A9DCFF 13.12%, #FFF5D2 99.74%);
